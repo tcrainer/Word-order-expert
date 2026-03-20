@@ -126,6 +126,12 @@ export default function App() {
     setFeedback(null);
   };
 
+  const updateAuxChoice = (id: string, val: string) => {
+    setBankCards(prev => prev.map(c => c.id === id ? { ...c, auxChoice: val, status: null } : c));
+    setSelectedCards(prev => prev.map(c => c.id === id ? { ...c, auxChoice: val, status: null } : c));
+    setFeedback(null);
+  };
+
   const checkAnswer = () => {
     const step = exercises[exIdx]?.steps[stepIdx];
     if (!step) return;
@@ -134,6 +140,7 @@ export default function App() {
     const user = selectedCards.map(c => {
       if (c.type === 'standard') return c.text || '';
       if (c.type === 'verb') return (c.userValue || '').trim();
+      if (c.type === 'auxVerb') return (c.userValue || '').trim();
       if (c.type === 'dropdown') return `${c.userValue || ''} ${c.base || ''}`.trim();
       if (c.type === 'punctuation') return c.text || '';
       return '';
@@ -141,7 +148,11 @@ export default function App() {
 
     let allCorrect = user.length === target.length;
     const updatedCards = selectedCards.map((c, i) => {
-      const isCorrect = user[i]?.toLowerCase() === target[i]?.toLowerCase();
+      let isCorrect = user[i]?.toLowerCase() === target[i]?.toLowerCase();
+      if (c.type === 'auxVerb') {
+        const auxCorrect = (c.auxChoice || '') === (c.infinitive || '');
+        isCorrect = isCorrect && auxCorrect;
+      }
       if (!isCorrect) allCorrect = false;
       return { ...c, status: isCorrect ? 'correct' : 'incorrect' as 'correct' | 'incorrect' };
     });
@@ -421,6 +432,7 @@ export default function App() {
                         card={card} 
                         onClick={() => moveCard(card.id, 'selected')} 
                         onUpdateValue={(val) => updateCardValue(card.id, val)}
+                        onUpdateAuxChoice={(val) => updateAuxChoice(card.id, val)}
                       />
                     </Reorder.Item>
                   ))}
@@ -442,6 +454,7 @@ export default function App() {
                           card={card} 
                           onClick={() => moveCard(card.id, 'bank')} 
                           onUpdateValue={(val) => updateCardValue(card.id, val)}
+                          onUpdateAuxChoice={(val) => updateAuxChoice(card.id, val)}
                         />
                       </motion.div>
                     ))}
