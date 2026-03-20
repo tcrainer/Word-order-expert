@@ -1539,7 +1539,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I am happy because we are going to the park at the weekend.",
+            english: "Because we are going to the park at the weekend, I am happy",
             target: ['Weil', 'wir', 'am Wochenende', 'in den Park', 'gehen', ',', 'freue', 'ich', 'mich']
           }
         ]
@@ -1564,7 +1564,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He learns German although the exam is hard.",
+            english: "Although the exam is hard, he learns German",
             target: ['Obwohl', 'die Prüfung', 'schwer', 'ist', ',', 'lernt', 'er', 'Deutsch']
           }
         ]
@@ -1590,7 +1590,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I am of the opinion that the weather is beautiful today.",
+            english: "That the weather is beautiful today, I am of the opinion",
             target: ['Dass', 'das Wetter', 'heute', 'schön', 'ist', ',', 'bin', 'ich', 'der Ansicht']
           }
         ]
@@ -1615,7 +1615,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We go to the restaurant if we are hungry.",
+            english: "If we are hungry, we go to the restaurant",
             target: ['Wenn', 'wir', 'Hunger', 'haben', ',', 'gehen', 'wir', 'ins Restaurant']
           }
         ]
@@ -1663,7 +1663,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He is staying at home because he is sick.",
+            english: "Because he is sick, he is staying at home",
             target: ['Weil', 'er', 'krank', 'ist', ',', 'bleibt', 'er', 'zu Hause']
           }
         ]
@@ -1688,7 +1688,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We visit the city although it is raining.",
+            english: "Although it is raining, we visit the city",
             target: ['Obwohl', 'es', 'regnet', ',', 'besichtigen', 'wir', 'die', 'Stadt']
           }
         ]
@@ -1712,7 +1712,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I know that he is right.",
+            english: "That he is right, I know",
             target: ['Dass', 'er', 'Recht', 'hat', ',', 'weiß', 'ich']
           }
         ]
@@ -1737,7 +1737,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We play football if we have time.",
+            english: "If we have time, we play football",
             target: ['Wenn', 'wir', 'Zeit', 'haben', ',', 'spielen', 'wir', 'Fußball']
           }
         ]
@@ -1762,7 +1762,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "She photographs the sights because they are beautiful.",
+            english: "Because they are beautiful, she photographs the sights",
             target: ['Weil', 'sie', 'schön', 'sind', ',', 'fotografiert', 'sie', 'die Sehenswürdigkeiten']
           }
         ]
@@ -1787,7 +1787,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I am happy because we have holiday.",
+            english: "Because we have holiday, I am happy",
             target: ['Weil', 'wir', 'Urlaub', 'haben', ',', 'freue', 'ich', 'mich']
           }
         ]
@@ -1812,7 +1812,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He learns German although it is hard.",
+            english: "Although it is hard, he learns German",
             target: ['Obwohl', 'es', 'schwer', 'ist', ',', 'lernt', 'er', 'Deutsch']
           }
         ]
@@ -1837,7 +1837,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I think that the weather is beautiful today.",
+            english: "That the weather is beautiful today, I think",
             target: ['Dass', 'das Wetter', 'heute', 'schön', 'ist', ',', 'denke', 'ich']
           }
         ]
@@ -1862,7 +1862,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We go to the park if we have time.",
+            english: "If we have time, we go to the park",
             target: ['Wenn', 'wir', 'Zeit', 'haben', ',', 'gehen', 'wir', 'in den Park']
           }
         ]
@@ -1886,7 +1886,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "My girlfriend says that she is hungry.",
+            english: "That she is hungry, my girlfriend says",
             target: ['Dass', 'sie', 'Hunger', 'hat', ',', 'sagt', 'meine Freundin']
           }
         ]
@@ -1911,7 +1911,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I am staying at home because I am sick.",
+            english: "Because I am sick, I am staying at home",
             target: ['Weil', 'ich', 'krank', 'bin', ',', 'bleibe', 'ich', 'zu Hause']
           }
         ]
@@ -1937,7 +1937,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We hike in the mountains although it is raining.",
+            english: "Although it is raining, we hike in the mountains",
             target: ['Obwohl', 'es', 'regnet', ',', 'wandern', 'wir', 'in', 'den', 'Bergen']
           }
         ]
@@ -1961,7 +1961,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He knows that he is right.",
+            english: "That he is right, he knows",
             target: ['Dass', 'er', 'Recht', 'hat', ',', 'weiß', 'er']
           }
         ]
@@ -1987,7 +1987,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I visit the cafe when I need coffee.",
+            english: "When I need coffee, I visit the cafe",
             target: ['Wenn', 'ich', 'Kaffee', 'brauche', ',', 'besuche', 'ich', 'das', 'Cafe']
           }
         ]
@@ -2012,11 +2012,87 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We find that the city is interesting.",
+            english: "That the city is interesting, we find",
             target: ['Dass', 'die', 'Stadt', 'interessant', 'ist', ',', 'finden', 'wir']
           }
         ]
-      }
+      },
+      {
+          title: "PRO present ich-a",
+          bank: [
+          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
+          { id: '2', text: 'lerne', infinitive: 'lernen', type: 'verb', cat: 'verb' },
+          { id: '3', text: 'Deutsch', type: 'standard', cat: 'detail' },
+          { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
+          { id: '4', text: 'weil', type: 'standard', cat: 'subjunction' },
+          { id: '5', text: 'ich', type: 'standard', cat: 'subject' },
+          { id: '6', text: 'in', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
+          { id: '7', text: 'wohnen', infinitive: 'wohnen', type: 'verb', cat: 'verb' }
+          ],
+          steps: [
+            {
+              instruction: "Schritt 1: Bilde den Satz.",
+              english: "I learn German because I live abroad.",
+              target: ['Ich', 'lerne', 'Deutsch', ',', 'weil', 'ich', 'im Ausland', 'wohnen']
+            },
+            {
+              instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+              english: "Because I live abroad, I learn German.",
+              target: ['Weil', 'ich', 'im Ausland', 'wohnen', ',', 'lerne', 'ich', 'Deutsch']
+            }
+          ]
+        },
+        {
+          title: "PRO present ich-b",
+          bank: [
+          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
+          { id: '2', text: 'bleibe', infinitive: 'bleiben', type: 'verb', cat: 'verb' },
+          { id: '3', text: 'zu Hause', type: 'standard', cat: 'place' },
+          { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
+          { id: '4', text: 'obwohl', type: 'standard', cat: 'subjunction' },
+          { id: '5', text: 'das Wetter', type: 'standard', cat: 'subject' },
+          { id: '6', text: 'schön', type: 'standard', cat: 'adjective' },
+          { id: '7', text: 'ist', infinitive: 'sein', type: 'verb', cat: 'verb' }
+          ],
+          steps: [
+            {
+              instruction: "Schritt 1: Bilde den Satz.",
+              english: "I stay at home although the weather is nice.",
+              target: ['Ich', 'bleibe', 'zu Hause', ',', 'obwohl', 'das Wetter', 'schön', 'ist']
+            },
+            {
+              instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+              english: "Although the weather is nice, I stay at home.",
+              target: ['Obwohl', 'das Wetter', 'schön', 'ist', ',', 'bleibe', 'ich', 'zu Hause']
+            }
+          ]
+        },
+        {
+          title: "PRO present ich-c",
+          bank: [
+          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
+          { id: '2', text: 'esse', infinitive: 'essen', type: 'verb', cat: 'verb' },
+          { id: '3', text: 'gern', type: 'standard', cat: 'adverb' },
+          { id: '4', text: 'Pizza', type: 'standard', cat: 'detail' },
+          { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
+          { id: '5', text: 'wenn', type: 'standard', cat: 'subjunction' },
+          { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
+          { id: '7', text: 'Hunger', type: 'standard', cat: 'detail' },
+          { id: '8', text: 'habe', infinitive: 'haben', type: 'verb', cat: 'verb' }
+          ],
+          steps: [
+            {
+              instruction: "Schritt 1: Bilde den Satz.",
+              english: "I like to eat pizza when I am hungry.",
+              target: ['Ich', 'esse', 'gern', 'Pizza', ',', 'wenn', 'ich', 'Hunger', 'habe']
+            },
+            {
+              instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+              english: "When I am hungry, I like to eat pizza.",
+              target: ['Wenn', 'ich', 'Hunger', 'habe', ',', 'esse', 'ich', 'gern', 'Pizza']
+            }
+          ]
+        },
     ],
     past: [
       {
@@ -2041,7 +2117,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I was tired because I had worked a lot yesterday.",
+            english: "Because I had worked a lot yesterday, I was tired",
             target: ['Weil', 'ich', 'gestern', 'viel', 'gearbeitet', 'hatte', ',', 'war', 'ich', 'müde']
           }
         ]
@@ -2068,7 +2144,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He read the book although it was boring.",
+            english: "Although it was boring, he read the book",
             target: ['Obwohl', 'es', 'langweilig', 'war', ',', 'hat', 'er', 'das', 'Buch', 'gelesen']
           }
         ]
@@ -2094,7 +2170,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We went to the beach when the weather was great.",
+            english: "When the weather was great, we went to the beach",
             target: ['Wenn', 'das Wetter', 'toll', 'war', ',', 'sind', 'wir', 'an den Strand', 'gegangen']
           }
         ]
@@ -2119,7 +2195,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "She was of the opinion that the exam was hard.",
+            english: "That the exam was hard, she was of the opinion",
             target: ['Dass', 'die Prüfung', 'schwer', 'war', ',', 'war', 'sie', 'der Ansicht']
           }
         ]
@@ -2145,7 +2221,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He ate pizza because he was hungry.",
+            english: "Because he was hungry, he ate pizza",
             target: ['Weil', 'er', 'Hunger', 'hatte', ',', 'hat', 'er', 'Pizza', 'gegessen']
           }
         ]
@@ -2171,7 +2247,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We were in the cafe although we drank no coffee.",
+            english: "Although we drank no coffee, we were in the cafe",
             target: ['Obwohl', 'wir', 'keinen Kaffee', 'getrunken', 'haben', ',', 'waren', 'wir', 'im Cafe']
           }
         ]
@@ -2196,7 +2272,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I knew that the car was expensive.",
+            english: "That the car was expensive, I knew",
             target: ['Dass', 'das', 'Auto', 'teuer', 'war', ',', 'wusste', 'ich']
           }
         ]
@@ -2221,7 +2297,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He went home because it was raining.",
+            english: "Because it was raining, he went home",
             target: ['Weil', 'es', 'regnete', ',', 'ist', 'er', 'nach Hause', 'gegangen']
           }
         ]
@@ -2248,7 +2324,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We looked for the camera when we took photos.",
+            english: "When we took photos, we looked for the camera",
             target: ['Wenn', 'wir', 'fotografiert', 'haben', ',', 'haben', 'wir', 'die', 'Kamera', 'gesucht']
           }
         ]
@@ -2274,7 +2350,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I was tired because I worked a lot.",
+            english: "Because I worked a lot, I was tired",
             target: ['Weil', 'ich', 'viel', 'gearbeitet', 'habe', ',', 'war', 'ich', 'müde']
           }
         ]
@@ -2301,7 +2377,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He read the book although it was boring.",
+            english: "Although it was boring, he read the book",
             target: ['Obwohl', 'es', 'langweilig', 'war', ',', 'hat', 'er', 'das', 'Buch', 'gelesen']
           }
         ]
@@ -2327,7 +2403,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We stayed at the beach when it was beautiful.",
+            english: "When it was beautiful, we stayed at the beach",
             target: ['Wenn', 'es', 'schön', 'war', ',', 'sind', 'wir', 'am Strand', 'geblieben']
           }
         ]
@@ -2353,7 +2429,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "She ate pizza because she was hungry.",
+            english: "Because she was hungry, she ate pizza",
             target: ['Weil', 'sie', 'Hunger', 'hatte', ',', 'hat', 'sie', 'Pizza', 'gegessen']
           }
         ]
@@ -2379,7 +2455,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "My friend was glad that we had the camera.",
+            english: "That we had the camera, my friend was glad",
             target: ['Dass', 'wir', 'die', 'Kamera', 'hatten', ',', 'war', 'mein Freund', 'froh']
           }
         ]
@@ -2405,7 +2481,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We played football although we were tired.",
+            english: "Although we were tired, we played football",
             target: ['Obwohl', 'wir', 'müde', 'waren', ',', 'haben', 'wir', 'Fußball', 'gespielt']
           }
         ]
@@ -2429,7 +2505,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I knew that the exam was hard.",
+            english: "That the exam was hard, I knew",
             target: ['Dass', 'die Prüfung', 'schwer', 'war', ',', 'wusste', 'ich']
           }
         ]
@@ -2454,7 +2530,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He went home because it was raining.",
+            english: "Because it was raining, he went home",
             target: ['Weil', 'es', 'regnete', ',', 'ist', 'er', 'nach Hause', 'gegangen']
           }
         ]
@@ -2479,11 +2555,89 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "They laughed when we had fun.",
+            english: "When we had fun, they laughed",
             target: ['Wenn', 'wir', 'Spaß', 'hatten', ',', 'haben', 'sie', 'gelacht']
           }
         ]
-      }
+      },
+      {
+          title: "PRO past ich-a",
+          bank: [
+          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
+          { id: '2', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
+          { id: '3', text: 'müde', type: 'standard', cat: 'adjective' },
+          { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
+          { id: '4', text: 'weil', type: 'standard', cat: 'subjunction' },
+          { id: '5', text: 'ich', type: 'standard', cat: 'subject' },
+          { id: '6', text: 'viel', type: 'standard', cat: 'adverb' },
+          { id: '7', text: 'gearbeitet', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
+          { id: '8', text: 'hatte', infinitive: 'haben', type: 'auxVerb', cat: 'verb' }
+          ],
+          steps: [
+            {
+              instruction: "Schritt 1: Bilde den Satz.",
+              english: "I was tired because I had worked a lot.",
+              target: ['Ich', 'war', 'müde', ',', 'weil', 'ich', 'viel', 'gearbeitet', 'hatte']
+            },
+            {
+              instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+              english: "Because I had worked a lot, I was tired.",
+              target: ['Weil', 'ich', 'viel', 'gearbeitet', 'hatte', ',', 'war', 'ich', 'müde']
+            }
+          ]
+        },
+        {
+          title: "PRO past ich-b",
+          bank: [
+          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
+          { id: '2', text: 'habe', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
+          { id: '3', text: 'Pizza', type: 'standard', cat: 'detail' },
+          { id: '4', text: 'gegessen', infinitive: 'essen', type: 'verb', cat: 'verb' },
+          { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
+          { id: '5', text: 'weil', type: 'standard', cat: 'subjunction' },
+          { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
+          { id: '7', text: 'Hunger', type: 'standard', cat: 'detail' },
+          { id: '8', text: 'hatte', infinitive: 'haben', type: 'verb', cat: 'verb' }
+          ],
+          steps: [
+            {
+              instruction: "Schritt 1: Bilde den Satz.",
+              english: "I ate pizza because I was hungry.",
+              target: ['Ich', 'habe', 'Pizza', 'gegessen', ',', 'weil', 'ich', 'Hunger', 'hatte']
+            },
+            {
+              instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+              english: "Because I was hungry, I ate pizza.",
+              target: ['Weil', 'ich', 'Hunger', 'hatte', ',', 'habe', 'ich', 'Pizza', 'gegessen']
+            }
+          ]
+        },
+        {
+          title: "PRO past ich-c",
+          bank: [
+          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
+          { id: '2', text: 'bin', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
+          { id: '3', text: 'zu Hause', type: 'standard', cat: 'place' },
+          { id: '4', text: 'geblieben', infinitive: 'bleiben', type: 'verb', cat: 'verb' },
+          { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
+          { id: '5', text: 'obwohl', type: 'standard', cat: 'subjunction' },
+          { id: '6', text: 'das Wetter', type: 'standard', cat: 'subject' },
+          { id: '7', text: 'schön', type: 'standard', cat: 'adjective' },
+          { id: '8', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' }
+          ],
+          steps: [
+            {
+              instruction: "Schritt 1: Bilde den Satz.",
+              english: "I stayed at home although the weather was nice.",
+              target: ['Ich', 'bin', 'zu Hause', 'geblieben', ',', 'obwohl', 'das Wetter', 'schön', 'war']
+            },
+            {
+              instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+              english: "Although the weather was nice, I stayed at home.",
+              target: ['Obwohl', 'das Wetter', 'schön', 'war', ',', 'bin', 'ich', 'zu Hause', 'geblieben']
+            }
+          ]
+        },
     ],
     future: [
       {
@@ -2507,7 +2661,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I will learn because the exam will be important.",
+            english: "Because the exam will be important, I will learn",
             target: ['Weil', 'die Prüfung', 'wichtig', 'sein', 'wird', ',', 'werde', 'ich', 'lernen']
           }
         ]
@@ -2532,7 +2686,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We will travel although it will rain.",
+            english: "Although it will rain, we will travel",
             target: ['Obwohl', 'es', 'regnen', 'wird', ',', 'werden', 'wir', 'fahren']
           }
         ]
@@ -2558,7 +2712,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He thinks that we will have time tomorrow.",
+            english: "That we will have time tomorrow, he thinks",
             target: ['Dass', 'wir', 'morgen', 'Zeit', 'haben', 'werden', ',', 'denkt', 'er']
           }
         ]
@@ -2585,7 +2739,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I will be happy if we will be abroad.",
+            english: "If we will be abroad, I will be happy",
             target: ['Wenn', 'wir', 'im Ausland', 'sein', 'werden', ',', 'werde', 'ich', 'mich', 'freuen']
           }
         ]
@@ -2611,7 +2765,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "She will work because she will buy a car.",
+            english: "Because she will buy a car, she will work",
             target: ['Weil', 'sie', 'ein Auto', 'kaufen', 'wird', ',', 'wird', 'sie', 'arbeiten']
           }
         ]
@@ -2637,7 +2791,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We believe that the weather will be beautiful at the weekend.",
+            english: "That the weather will be beautiful at the weekend, we believe",
             target: ['Dass', 'das Wetter', 'am Wochenende', 'schön', 'sein', 'wird', ',', 'glauben', 'wir']
           }
         ]
@@ -2663,7 +2817,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He will hike although he will be tired.",
+            english: "Although he will be tired, he will hike",
             target: ['Obwohl', 'er', 'müde', 'sein', 'wird', ',', 'wird', 'er', 'wandern']
           }
         ]
@@ -2689,7 +2843,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I will sleep when I will be at home.",
+            english: "When I will be at home, I will sleep",
             target: ['Wenn', 'ich', 'zu Hause', 'sein', 'werde', ',', 'werde', 'ich', 'schlafen']
           }
         ]
@@ -2714,7 +2868,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "My friends say that they will be in the cafe.",
+            english: "That they will be in the cafe, my friends say",
             target: ['Dass', 'sie', 'im Cafe', 'sein', 'werden', ',', 'sagen', 'meine Freunde']
           }
         ]
@@ -2744,7 +2898,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "It will be great when we will live in the city.",
+            english: "When we will live in the city, it will be great",
             target: ['Wenn', 'wir', 'in', 'class', 'der', 'Stadt', 'wohnen', 'werden', ',', 'wird', 'es', 'toll', 'sein']
           }
         ]
@@ -2770,7 +2924,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I will learn because the exam will be important.",
+            english: "Because the exam will be important, I will learn",
             target: ['Weil', 'die Prüfung', 'wichtig', 'sein', 'wird', ',', 'werde', 'ich', 'lernen']
           }
         ]
@@ -2796,7 +2950,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We will travel although it will be hard.",
+            english: "Although it will be hard, we will travel",
             target: ['Obwohl', 'es', 'schwer', 'sein', 'wird', ',', 'werden', 'wir', 'fahren']
           }
         ]
@@ -2822,7 +2976,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He thinks that we will have time tomorrow.",
+            english: "That we will have time tomorrow, he thinks",
             target: ['Dass', 'wir', 'morgen', 'Zeit', 'haben', 'werden', ',', 'denkt', 'er']
           }
         ]
@@ -2848,7 +3002,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I will be happy if you will come.",
+            english: "If you will come, I will be happy",
             target: ['Wenn', 'du', 'kommen', 'wirst', ',', 'werde', 'ich', 'mich', 'freuen']
           }
         ]
@@ -2875,7 +3029,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "She will work because she will buy the car.",
+            english: "Because she will buy the car, she will work",
             target: ['Weil', 'sie', 'das', 'Auto', 'kaufen', 'wird', ',', 'wird', 'sie', 'arbeiten']
           }
         ]
@@ -2900,7 +3054,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We believe that the weather will be beautiful.",
+            english: "That the weather will be beautiful, we believe",
             target: ['Dass', 'das Wetter', 'schön', 'sein', 'wird', ',', 'glauben', 'wir']
           }
         ]
@@ -2926,7 +3080,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He will hike although he will be tired.",
+            english: "Although he will be tired, he will hike",
             target: ['Obwohl', 'er', 'müde', 'sein', 'wird', ',', 'wird', 'er', 'wandern']
           }
         ]
@@ -2952,7 +3106,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I will sleep when I will be at home.",
+            english: "When I will be at home, I will sleep",
             target: ['Wenn', 'ich', 'zu Hause', 'sein', 'werde', ',', 'werde', 'ich', 'schlafen']
           }
         ]
@@ -2977,7 +3131,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "My friends say that they will be in the cafe.",
+            english: "That they will be in the cafe, my friends say",
             target: ['Dass', 'sie', 'im Cafe', 'sein', 'werden', ',', 'sagen', 'meine Freunde']
           }
         ]
@@ -3004,7 +3158,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "It will be great when we will live abroad.",
+            english: "When we will live abroad, it will be great",
             target: ['Wenn', 'wir', 'im Ausland', 'leben', 'werden', ',', 'wird', 'es', 'toll', 'sein']
           }
         ]
@@ -3031,7 +3185,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I would learn because it would be important.",
+            english: "Because it would be important, I would learn",
             target: ['Weil', 'es', 'wichtig', 'wäre', ',', 'würde', 'ich', 'lernen']
           }
         ]
@@ -3056,7 +3210,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We would hike although it would rain.",
+            english: "Although it would rain, we would hike",
             target: ['Obwohl', 'es', 'regnen', 'würde', ',', 'würden', 'wir', 'wandern']
           }
         ]
@@ -3082,7 +3236,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I would be happy if we were at the beach.",
+            english: "If we were at the beach, I would be happy",
             target: ['Wenn', 'wir', 'am Strand', 'wären', ',', 'würde', 'ich', 'mich', 'freuen']
           }
         ]
@@ -3108,7 +3262,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "She would eat pizza because she would be hungry.",
+            english: "Because she would be hungry, she would eat pizza",
             target: ['Weil', 'sie', 'Hunger', 'hätte', ',', 'würde', 'sie', 'Pizza', 'essen']
           }
         ]
@@ -3135,7 +3289,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He would buy the book although it would be boring.",
+            english: "Although it would be boring, he would buy the book",
             target: ['Obwohl', 'es', 'langweilig', 'wäre', ',', 'würde', 'er', 'das', 'Buch', 'kaufen']
           }
         ]
@@ -3160,7 +3314,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "My girlfriend would be glad that I was there.",
+            english: "That I was there, my girlfriend would be glad",
             target: ['Dass', 'ich', 'da', 'wäre', ',', 'wäre', 'meine Freundin', 'froh']
           }
         ]
@@ -3185,7 +3339,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "It would be better if we had more time.",
+            english: "If we had more time, it would be better",
             target: ['Wenn', 'wir', 'mehr Zeit', 'hätten', ',', 'wäre', 'es', 'besser']
           }
         ]
@@ -3210,7 +3364,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I would learn because it would be important.",
+            english: "Because it would be important, I would learn",
             target: ['Weil', 'es', 'wichtig', 'wäre', ',', 'würde', 'ich', 'lernen']
           }
         ]
@@ -3235,7 +3389,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "We would hike although it would rain.",
+            english: "Although it would rain, we would hike",
             target: ['Obwohl', 'es', 'regnen', 'würde', ',', 'würden', 'wir', 'wandern']
           }
         ]
@@ -3261,7 +3415,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "I would be happy if we were at the beach.",
+            english: "If we were at the beach, I would be happy",
             target: ['Wenn', 'wir', 'am Strand', 'wären', ',', 'würde', 'ich', 'mich', 'freuen']
           }
         ]
@@ -3287,7 +3441,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "She would eat pizza because she would have hunger.",
+            english: "Because she would have hunger, she would eat pizza",
             target: ['Weil', 'sie', 'Hunger', 'hätte', ',', 'würde', 'sie', 'Pizza', 'essen']
           }
         ]
@@ -3314,7 +3468,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "He would buy the book although it would be expensive.",
+            english: "Although it would be expensive, he would buy the book",
             target: ['Obwohl', 'es', 'teuer', 'wäre', ',', 'würde', 'er', 'das', 'Buch', 'kaufen']
           }
         ]
@@ -3339,7 +3493,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "My girlfriend would be glad that I was there.",
+            english: "That I was there, my girlfriend would be glad",
             target: ['Dass', 'ich', 'da', 'wäre', ',', 'wäre', 'meine Freundin', 'froh']
           }
         ]
@@ -3364,7 +3518,7 @@ export const CATEGORIES_DATA: Categories = {
           },
           {
             instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
-            english: "It would be better if we had more time.",
+            english: "If we had more time, it would be better",
             target: ['Wenn', 'wir', 'mehr Zeit', 'hätten', ',', 'wäre', 'es', 'besser']
           }
         ]
@@ -5162,7 +5316,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 2",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'das Wetter', type: 'standard', cat: 'subject' },
         { id: '3', text: 'schön', type: 'standard', cat: 'adjective' },
         { id: '4', text: 'ist', infinitive: 'sein', type: 'verb', cat: 'verb' },
@@ -5182,7 +5336,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 3",
         bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Als', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '3', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'waren', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
@@ -5203,7 +5357,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 4",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '3', text: 'Zeit', type: 'standard', cat: 'detail' },
         { id: '4', text: 'habe', infinitive: 'haben', type: 'verb', cat: 'verb' },
@@ -5224,7 +5378,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 5",
         bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Als', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'er', type: 'standard', cat: 'subject' },
         { id: '3', text: 'in', base: 'Schule', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'war', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
@@ -5245,7 +5399,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 6",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'es', type: 'standard', cat: 'subject' },
         { id: '3', text: 'regnet', infinitive: 'regnen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -5265,7 +5419,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 7",
         bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Als', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '3', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
@@ -5285,7 +5439,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 8",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '3', text: 'Hunger', type: 'standard', cat: 'detail' },
         { id: '4', text: 'habe', infinitive: 'haben', type: 'verb', cat: 'verb' },
@@ -5305,7 +5459,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 9",
         bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Als', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'er', type: 'standard', cat: 'subject' },
         { id: '3', text: 'das', type: 'standard', cat: 'subject' },
         { id: '4', text: 'Auto', type: 'standard', cat: 'detail' },
@@ -5327,7 +5481,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 10",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'sie', type: 'standard', cat: 'subject' },
         { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
@@ -5347,7 +5501,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 12",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'es', type: 'standard', cat: 'subject' },
         { id: '3', text: 'morgen', type: 'standard', cat: 'detail' },
         { id: '4', text: 'regnet', infinitive: 'regnen', type: 'verb', cat: 'verb' },
@@ -5367,7 +5521,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 14",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '3', text: 'Zeit', type: 'standard', cat: 'detail' },
         { id: '4', text: 'habe', infinitive: 'haben', type: 'verb', cat: 'verb' },
@@ -5386,7 +5540,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 15",
         bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Als', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'er', type: 'standard', cat: 'subject' },
         { id: '3', text: 'jünger', type: 'standard', cat: 'adjective' },
         { id: '4', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
@@ -5406,7 +5560,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 16",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '3', text: 'am Wochenende', type: 'standard', cat: 'detail' },
         { id: '4', text: 'wandern', infinitive: 'wandern', type: 'verb', cat: 'verb' },
@@ -5426,7 +5580,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 18",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'du', type: 'standard', cat: 'subject' },
         { id: '3', text: 'kommst', infinitive: 'kommen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -5445,7 +5599,7 @@ export const CATEGORIES_DATA: Categories = {
       {
         title: "GOD wenn_als 20",
         bank: [
-          { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
+          { id: '1', text: 'Wenn', options: ['Wenn', 'Als'], type: 'dropdown', cat: 'subjunction' },
         { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '3', text: 'Hunger', type: 'standard', cat: 'detail' },
         { id: '4', text: 'habe', infinitive: 'haben', type: 'verb', cat: 'verb' },
