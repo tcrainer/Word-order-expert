@@ -1,4 +1,4 @@
-export type CardType = 'standard' | 'verb' | 'dropdown' | 'punctuation';
+export type CardType = 'standard' | 'verb' | 'dropdown' | 'punctuation' | 'auxVerb';
 export type CardCat = 'time' | 'verb' | 'subject' | 'detail' | 'subjunction' | 'place' | 'punctuation' | 'adjective' | 'adverb';
 
 export interface BankCard {
@@ -10,6 +10,7 @@ export interface BankCard {
   type: CardType;
   cat: CardCat;
   userValue?: string;
+  auxChoice?: string;
   hint?: string;
   gender?: 'm' | 'f' | 'n' | 'pl';
   status?: 'correct' | 'incorrect' | null;
