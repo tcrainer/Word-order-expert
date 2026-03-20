@@ -142,30 +142,32 @@ export function Flashcard({ card, onClick, onUpdateValue, onUpdateAuxChoice }: F
 
       {card.type === 'dropdown' && (
         <>
-          <span className="text-[8px] font-bold opacity-60 mb-auto uppercase tracking-wider">
-            {card.cat === 'verb' ? 'haben / sein' : '{choose}'}
-          </span>
-          <select
-            value={card.userValue || ''}
-            onChange={(e) => onUpdateValue(e.target.value)}
-            onClick={(e) => e.stopPropagation()}
-            className="mt-0.5 px-1 py-0.5 text-[10px] font-medium bg-white/80 border border-black/20 rounded focus:outline-none focus:border-orange-500 text-black appearance-none cursor-pointer"
-          >
-            <option value="" disabled>-</option>
-            {card.options?.map(o => (
-              <option key={o} value={o}>{o}</option>
-            ))}
-          </select>
-          {card.cat !== 'verb' && (
-            <span className={`text-[9px] mt-0.5 whitespace-nowrap font-medium ${
-              card.gender === 'f' ? 'text-red-800' :
-              card.gender === 'm' ? 'text-blue-800' :
-              card.gender === 'n' ? 'text-green-800' :
-              card.gender === 'pl' ? 'text-yellow-800' : ''
-            }`}>
-              {card.base} {card.gender && <span className="opacity-60 text-[8px]">({card.gender})</span>}
-            </span>
+          {card.cat === 'verb' && (
+            <span className="text-[8px] font-bold opacity-60 mb-auto uppercase tracking-wider">haben / sein</span>
           )}
+          <div className="flex items-center gap-1 mt-auto">
+            <select
+              value={card.userValue || ''}
+              onChange={(e) => onUpdateValue(e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+              className="px-1 py-0.5 text-[10px] font-medium bg-white/80 border border-black/20 rounded focus:outline-none focus:border-orange-500 text-black appearance-none cursor-pointer"
+            >
+              <option value="" disabled>-</option>
+              {card.options?.map(o => (
+                <option key={o} value={o}>{o}</option>
+              ))}
+            </select>
+            {card.cat !== 'verb' && (
+              <span className={`text-[10px] font-medium whitespace-nowrap ${
+                card.gender === 'f' ? 'text-red-800' :
+                card.gender === 'm' ? 'text-blue-800' :
+                card.gender === 'n' ? 'text-green-800' :
+                card.gender === 'pl' ? 'text-yellow-800' : ''
+              }`}>
+                {card.base}
+              </span>
+            )}
+          </div>
         </>
       )}
       {card.type === 'auxVerb' && (
