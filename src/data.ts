@@ -404,7 +404,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 1",
         bank: [
           { id: '1', text: 'Gestern', type: 'standard', cat: 'time' },
-        { id: '2', text: 'habe', options: ['habe', 'bin'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'habe', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
         { id: '5', text: 'im', base: 'Garten', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
@@ -446,13 +446,13 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 3",
         bank: [
           { id: '1', text: 'Früher', type: 'standard', cat: 'time' },
-        { id: '2', text: 'hatte', options: ['hatte', 'war'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hatte', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '4', text: 'ein Auto', type: 'standard', cat: 'detail' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'und', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'bin', options: ['habe', 'bin'], type: 'dropdown', cat: 'verb' },
+        { id: '7', text: 'bin', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '8', text: 'zur Arbeit', type: 'standard', cat: 'detail' },
         { id: '9', text: 'gefahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -510,13 +510,13 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 6",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'die Hausaufgaben', type: 'standard', cat: 'detail' },
         { id: '4', text: 'gemacht', infinitive: 'machen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'oder', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '7', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '8', text: 'Fußball', type: 'standard', cat: 'detail' },
         { id: '9', text: 'gespielt', infinitive: 'spielen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -533,7 +533,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 7",
         bank: [
           { id: '1', text: 'Dann', type: 'standard', cat: 'time' },
-        { id: '2', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'im', base: 'Restaurant', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
@@ -551,13 +551,13 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 8",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'habe', options: ['habe', 'bin'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'habe', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'die Sehenswürdigkeiten', type: 'standard', cat: 'detail' },
         { id: '4', text: 'fotografiert', infinitive: 'fotografieren', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'aber', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'habe', options: ['habe', 'bin'], type: 'dropdown', cat: 'verb' },
+        { id: '7', text: 'habe', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '8', text: 'kein Buch', type: 'standard', cat: 'detail' },
         { id: '9', text: 'gekauft', infinitive: 'kaufen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -574,7 +574,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 9",
         bank: [
           { id: '1', text: 'Letzte Woche', type: 'standard', cat: 'time' },
-        { id: '2', text: 'haben', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'haben', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'Pizza', type: 'standard', cat: 'detail' },
@@ -645,7 +645,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 13",
         bank: [
           { id: '1', text: 'Letzte Woche', type: 'standard', cat: 'time' },
-        { id: '2', text: 'haben', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'haben', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'Pizza', type: 'standard', cat: 'detail' },
         { id: '5', text: 'gegessen', infinitive: 'essen', type: 'verb', cat: 'verb' },
@@ -663,12 +663,12 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 14",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'gearbeitet', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'und', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '6', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '6', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '7', text: 'gelernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -701,7 +701,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 16",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -723,7 +723,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 17",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'habe', options: ['habe', 'bin'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'habe', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'Sport', type: 'standard', cat: 'detail' },
         { id: '4', text: 'gespielt', infinitive: 'spielen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -745,7 +745,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "NOOB past 18",
         bank: [
           { id: '1', text: 'Dann', type: 'standard', cat: 'time' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'er', type: 'standard', cat: 'subject' },
         { id: '4', text: 'die Hausaufgaben', type: 'standard', cat: 'detail' },
         { id: '5', text: 'gemacht', infinitive: 'machen', type: 'verb', cat: 'verb' },
@@ -2028,7 +2028,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 1",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'war', options: ['hatte', 'war'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'war', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'müde', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'weil', type: 'standard', cat: 'subjunction' },
@@ -2051,7 +2051,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 2",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'das', type: 'standard', cat: 'subject' },
         { id: '4', text: 'Buch', type: 'standard', cat: 'detail' },
         { id: '5', text: 'gelesen', infinitive: 'lesen', type: 'verb', cat: 'verb' },
@@ -2071,30 +2071,10 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "PRO past 3",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'dachte', infinitive: 'denken', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '3', text: 'dass', type: 'standard', cat: 'subjunction' },
-        { id: '4', text: 'meine Freunde', type: 'standard', cat: 'subject' },
-        { id: '5', text: 'im', base: 'Kino', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '7', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I thought that my friends were in the cinema.",
-            target: ['Ich', 'dachte', ',', 'dass', 'meine Freunde', 'im Kino', 'waren', '.']
-          }
-        ]
-      },
-      {
         title: "PRO past 4",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -2137,7 +2117,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 6",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'Pizza', type: 'standard', cat: 'detail' },
         { id: '4', text: 'gegessen', infinitive: 'essen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -2159,7 +2139,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 7",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'waren', options: ['hatten', 'waren'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'waren', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'obwohl', type: 'standard', cat: 'subjunction' },
@@ -2202,7 +2182,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 9",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'ist', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'ist', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'nach Hause', type: 'standard', cat: 'place' },
         { id: '4', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -2223,7 +2203,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 10",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'haben', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'haben', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'die', type: 'standard', cat: 'detail' },
         { id: '4', text: 'Kamera', type: 'standard', cat: 'detail' },
         { id: '5', text: 'gesucht', infinitive: 'suchen', type: 'verb', cat: 'verb' },
@@ -2246,7 +2226,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 11",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'war', options: ['hatte', 'war'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'war', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'müde', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'weil', type: 'standard', cat: 'subjunction' },
@@ -2268,7 +2248,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 12",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'das', type: 'standard', cat: 'subject' },
         { id: '4', text: 'Buch', type: 'standard', cat: 'detail' },
         { id: '5', text: 'gelesen', infinitive: 'lesen', type: 'verb', cat: 'verb' },
@@ -2288,31 +2268,10 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "PRO past 13",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'dachte', infinitive: 'denken', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '3', text: 'dass', type: 'standard', cat: 'subjunction' },
-        { id: '4', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '5', text: 'gestern', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'hier', type: 'standard', cat: 'place' },
-        { id: '7', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I thought that he was here yesterday.",
-            target: ['Ich', 'dachte', ',', 'dass', 'er', 'gestern', 'hier', 'war', '.']
-          }
-        ]
-      },
-      {
         title: "PRO past 14",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'geblieben', infinitive: 'bleiben', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -2334,7 +2293,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 15",
         bank: [
           { id: '1', text: 'Sie', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'Pizza', type: 'standard', cat: 'detail' },
         { id: '4', text: 'gegessen', infinitive: 'essen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -2378,7 +2337,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 17",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'haben', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'haben', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'Fußball', type: 'standard', cat: 'detail' },
         { id: '4', text: 'gespielt', infinitive: 'spielen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -2420,7 +2379,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 19",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'ist', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'ist', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'nach Hause', type: 'standard', cat: 'place' },
         { id: '4', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -2441,7 +2400,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "PRO past 20",
         bank: [
           { id: '1', text: 'Sie', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'haben', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'haben', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'gelacht', infinitive: 'lachen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'wenn', type: 'standard', cat: 'subjunction' },
@@ -2948,27 +2907,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "PRO conditional 3",
-        bank: [
-          { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'dächte', infinitive: 'denken', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '3', text: 'dass', type: 'standard', cat: 'subjunction' },
-        { id: '4', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '5', text: 'heute', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'Zeit', type: 'standard', cat: 'detail' },
-        { id: '7', text: 'hätte', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "He would think that I would have time today.",
-            target: ['Er', 'dächte', ',', 'dass', 'ich', 'heute', 'Zeit', 'hätte', '.']
-          }
-        ]
-      },
-      {
         title: "PRO conditional 4",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
@@ -3013,28 +2951,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "PRO conditional 6",
-        bank: [
-          { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fänden', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'dass', type: 'standard', cat: 'subjunction' },
-        { id: '6', text: 'ihr', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'hier', type: 'standard', cat: 'place' },
-        { id: '8', text: 'wärt', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "We would find it great that you were here.",
-            target: ['Wir', 'fänden', 'es', 'toll', ',', 'dass', 'ihr', 'hier', 'wärt', '.']
-          }
-        ]
-      },
-      {
         title: "PRO conditional 7",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
@@ -3054,28 +2970,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "He would buy the book although it would be boring.",
             target: ['Er', 'würde', 'das', 'Buch', 'kaufen', ',', 'obwohl', 'es', 'langweilig', 'wäre', '.']
-          }
-        ]
-      },
-      {
-        title: "PRO conditional 8",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'ginge', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'ins Kino', type: 'standard', cat: 'detail' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '4', text: 'wenn', type: 'standard', cat: 'subjunction' },
-        { id: '5', text: 'der', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'Film', type: 'standard', cat: 'detail' },
-        { id: '7', text: 'interessant', type: 'standard', cat: 'adjective' },
-        { id: '8', text: 'wäre', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would go to the cinema if the film were interesting.",
-            target: ['Ich', 'ginge', 'ins Kino', ',', 'wenn', 'der', 'Film', 'interessant', 'wäre', '.']
           }
         ]
       },
@@ -3164,26 +3058,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "PRO conditional 13",
-        bank: [
-          { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'dächte', infinitive: 'denken', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '3', text: 'dass', type: 'standard', cat: 'subjunction' },
-        { id: '4', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '5', text: 'Zeit', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'hätte', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "He would think that I would have time.",
-            target: ['Er', 'dächte', ',', 'dass', 'ich', 'Zeit', 'hätte', '.']
-          }
-        ]
-      },
-      {
         title: "PRO conditional 14",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
@@ -3228,28 +3102,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "PRO conditional 16",
-        bank: [
-          { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fänden', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'dass', type: 'standard', cat: 'subjunction' },
-        { id: '6', text: 'ihr', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'hier', type: 'standard', cat: 'place' },
-        { id: '8', text: 'wärt', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "We would find it great that you were here.",
-            target: ['Wir', 'fänden', 'es', 'toll', ',', 'dass', 'ihr', 'hier', 'wärt', '.']
-          }
-        ]
-      },
-      {
         title: "PRO conditional 17",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
@@ -3269,28 +3121,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "He would buy the book although it would be expensive.",
             target: ['Er', 'würde', 'das', 'Buch', 'kaufen', ',', 'obwohl', 'es', 'teuer', 'wäre', '.']
-          }
-        ]
-      },
-      {
-        title: "PRO conditional 18",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'ginge', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'ins Kino', type: 'standard', cat: 'detail' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '4', text: 'wenn', type: 'standard', cat: 'subjunction' },
-        { id: '5', text: 'der', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'Film', type: 'standard', cat: 'detail' },
-        { id: '7', text: 'interessant', type: 'standard', cat: 'adjective' },
-        { id: '8', text: 'wäre', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would go to the cinema if the film were interesting.",
-            target: ['Ich', 'ginge', 'ins Kino', ',', 'wenn', 'der', 'Film', 'interessant', 'wäre', '.']
           }
         ]
       },
@@ -3763,7 +3593,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT past 1",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'in', type: 'standard', cat: 'detail' },
         { id: '4', text: 'die', type: 'standard', cat: 'detail' },
         { id: '5', text: 'Stadt', type: 'standard', cat: 'detail' },
@@ -3804,31 +3634,10 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "EXPERT past 3",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fand', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'wichtig', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'viel', type: 'standard', cat: 'adverb' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'arbeiten', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I found it important to work a lot.",
-            target: ['Ich', 'fand', 'es', 'wichtig', ',', 'viel', 'zu', 'arbeiten', '.']
-          }
-        ]
-      },
-      {
         title: "EXPERT past 4",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'ist', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'ist', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'nach Hause', type: 'standard', cat: 'place' },
         { id: '4', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -3862,27 +3671,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "It was hard to do the exam.",
             target: ['Es', 'war', 'schwer', ',', 'die Prüfung', 'zu', 'machen', '.']
-          }
-        ]
-      },
-      {
-        title: "EXPERT past 6",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fand', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'meine Freunde', type: 'standard', cat: 'subject' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'besuchen', infinitive: 'besuchen', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I found it great to visit my friends.",
-            target: ['Ich', 'fand', 'es', 'toll', ',', 'meine Freunde', 'zu', 'besuchen', '.']
           }
         ]
       },
@@ -3929,31 +3717,10 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "EXPERT past 9",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fand', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'leben', infinitive: 'leben', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I found it interesting to live abroad.",
-            target: ['Ich', 'fand', 'es', 'interessant', ',', 'im Ausland', 'zu', 'leben', '.']
-          }
-        ]
-      },
-      {
         title: "EXPERT past 10",
         bank: [
           { id: '1', text: 'Sie', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'gelernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
@@ -3975,7 +3742,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT past 11",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'in', type: 'standard', cat: 'detail' },
         { id: '4', text: 'die', type: 'standard', cat: 'detail' },
         { id: '5', text: 'Stadt', type: 'standard', cat: 'detail' },
@@ -4016,31 +3783,10 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "EXPERT past 13",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fand', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'wichtig', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'viel', type: 'standard', cat: 'adverb' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'arbeiten', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I found it important to work a lot.",
-            target: ['Ich', 'fand', 'es', 'wichtig', ',', 'viel', 'zu', 'arbeiten', '.']
-          }
-        ]
-      },
-      {
         title: "EXPERT past 14",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'ist', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'ist', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'nach Hause', type: 'standard', cat: 'place' },
         { id: '4', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -4074,27 +3820,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "It was hard to do the exam.",
             target: ['Es', 'war', 'schwer', ',', 'die Prüfung', 'zu', 'machen', '.']
-          }
-        ]
-      },
-      {
-        title: "EXPERT past 16",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fand', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'meine Freunde', type: 'standard', cat: 'subject' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'besuchen', infinitive: 'besuchen', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I found it great to visit my friends.",
-            target: ['Ich', 'fand', 'es', 'toll', ',', 'meine Freunde', 'zu', 'besuchen', '.']
           }
         ]
       },
@@ -4141,31 +3866,10 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "EXPERT past 19",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fand', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'leben', infinitive: 'leben', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I found it interesting to live abroad.",
-            target: ['Ich', 'fand', 'es', 'interessant', ',', 'im Ausland', 'zu', 'leben', '.']
-          }
-        ]
-      },
-      {
         title: "EXPERT past 20",
         bank: [
           { id: '1', text: 'Sie', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '2', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '3', text: 'gelernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
@@ -4659,27 +4363,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "EXPERT conditional 3",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'arbeiten', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would find it great to work abroad.",
-            target: ['Ich', 'fände', 'es', 'toll', ',', 'im Ausland', 'zu', 'arbeiten', '.']
-          }
-        ]
-      },
-      {
         title: "EXPERT conditional 4",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
@@ -4722,27 +4405,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "EXPERT conditional 6",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'wichtig', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'die Hausaufgaben', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'machen', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would find it important to do the homework.",
-            target: ['Ich', 'fände', 'es', 'wichtig', ',', 'die Hausaufgaben', 'zu', 'machen', '.']
-          }
-        ]
-      },
-      {
         title: "EXPERT conditional 7",
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
@@ -4781,27 +4443,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "It would be hard to drink no coffee.",
             target: ['Es', 'wäre', 'schwer', ',', 'keinen Kaffee', 'zu', 'trinken', '.']
-          }
-        ]
-      },
-      {
-        title: "EXPERT conditional 9",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'ein Buch', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'lesen', infinitive: 'lesen', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would find it interesting to read a book.",
-            target: ['Ich', 'fände', 'es', 'interessant', ',', 'ein Buch', 'zu', 'lesen', '.']
           }
         ]
       },
@@ -4867,27 +4508,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "EXPERT conditional 13",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'arbeiten', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would find it great to work abroad.",
-            target: ['Ich', 'fände', 'es', 'toll', ',', 'im Ausland', 'zu', 'arbeiten', '.']
-          }
-        ]
-      },
-      {
         title: "EXPERT conditional 14",
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
@@ -4925,27 +4545,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "It would be boring to stay at home.",
             target: ['Es', 'wäre', 'langweilig', ',', 'zu Hause', 'zu', 'bleiben', '.']
-          }
-        ]
-      },
-      {
-        title: "EXPERT conditional 16",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'wichtig', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'die Wahrheit', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'sagen', infinitive: 'sagen', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would find it important to tell the truth.",
-            target: ['Ich', 'fände', 'es', 'wichtig', ',', 'die Wahrheit', 'zu', 'sagen', '.']
           }
         ]
       },
@@ -4988,27 +4587,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "It would be hard to drink no coffee.",
             target: ['Es', 'wäre', 'schwer', ',', 'keinen Kaffee', 'zu', 'trinken', '.']
-          }
-        ]
-      },
-      {
-        title: "EXPERT conditional 19",
-        bank: [
-          { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'ein Buch', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
-        { id: '7', text: 'schreiben', infinitive: 'schreiben', type: 'verb', cat: 'verb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "I would find it interesting to write a book.",
-            target: ['Ich', 'fände', 'es', 'interessant', ',', 'ein Buch', 'zu', 'schreiben', '.']
           }
         ]
       },
@@ -5467,28 +5045,6 @@ export const CATEGORIES_DATA: Categories = {
     ],
     wenn_als: [
       {
-        title: "GOD wenn_als 1",
-        bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'jünger', type: 'standard', cat: 'adjective' },
-        { id: '4', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'spielte', infinitive: 'spielen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'oft', type: 'standard', cat: 'time' },
-        { id: '8', text: 'Fußball', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "When I was younger, I often played football.",
-            target: ['Als', 'ich', 'jünger', 'war', ',', 'spielte', 'ich', 'oft', 'Fußball', '.']
-          }
-        ]
-      },
-      {
         title: "GOD wenn_als 2",
         bank: [
           { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
@@ -5515,9 +5071,9 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '3', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '4', text: 'waren', options: ['hatten', 'waren'], type: 'dropdown', cat: 'verb' },
+        { id: '4', text: 'waren', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'haben', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '5', text: 'haben', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '7', text: 'viel', type: 'standard', cat: 'adverb' },
         { id: '8', text: 'fotografiert', infinitive: 'fotografieren', type: 'verb', cat: 'verb' },
@@ -5559,9 +5115,9 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'er', type: 'standard', cat: 'subject' },
         { id: '3', text: 'in', base: 'Schule', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
-        { id: '4', text: 'war', options: ['hatte', 'war'], type: 'dropdown', cat: 'verb' },
+        { id: '4', text: 'war', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'hat', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '5', text: 'hat', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '6', text: 'er', type: 'standard', cat: 'subject' },
         { id: '7', text: 'Deutsch', type: 'standard', cat: 'detail' },
         { id: '8', text: 'gelernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
@@ -5645,9 +5201,9 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'er', type: 'standard', cat: 'subject' },
         { id: '3', text: 'das', type: 'standard', cat: 'subject' },
         { id: '4', text: 'Auto', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'hatte', options: ['hatte', 'war'], type: 'dropdown', cat: 'verb' },
+        { id: '5', text: 'hatte', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'ist', options: ['hat', 'ist'], type: 'dropdown', cat: 'verb' },
+        { id: '6', text: 'ist', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '7', text: 'er', type: 'standard', cat: 'subject' },
         { id: '8', text: 'zur Arbeit', type: 'standard', cat: 'detail' },
         { id: '9', text: 'gefahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
@@ -5683,28 +5239,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "GOD wenn_als 11",
-        bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'ein Kind', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'spielte', infinitive: 'spielen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'oft', type: 'standard', cat: 'time' },
-        { id: '8', text: 'Fußball', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "When I was a child, I often played football.",
-            target: ['Als', 'ich', 'ein Kind', 'war', ',', 'spielte', 'ich', 'oft', 'Fußball', '.']
-          }
-        ]
-      },
-      {
         title: "GOD wenn_als 12",
         bank: [
           { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
@@ -5722,27 +5256,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "If it rains tomorrow, we'll watch TV.",
             target: ['Wenn', 'es', 'morgen', 'regnet', ',', 'sehen', 'wir', 'fern', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD wenn_als 13",
-        bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '4', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'besichtigten', infinitive: 'besichtigen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'viel', type: 'standard', cat: 'adverb' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "When we were abroad, we visited a lot.",
-            target: ['Als', 'wir', 'im Ausland', 'waren', ',', 'besichtigten', 'wir', 'viel', '.']
           }
         ]
       },
@@ -5809,28 +5322,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "GOD wenn_als 17",
-        bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'gestern', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: '5', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'traf', infinitive: 'treffen', type: 'verb', cat: 'verb' },
-        { id: '7', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '8', text: 'einen Freund', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "When I was in the cafe yesterday, I met a friend.",
-            target: ['Als', 'ich', 'gestern', 'im Cafe', 'war', ',', 'traf', 'ich', 'einen Freund', '.']
-          }
-        ]
-      },
-      {
         title: "GOD wenn_als 18",
         bank: [
           { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
@@ -5847,26 +5338,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "When you come, we'll drink a tea.",
             target: ['Wenn', 'du', 'kommst', ',', 'trinken', 'wir', 'einen Tee', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD wenn_als 19",
-        bank: [
-          { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'die Sonne', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'schien', infinitive: 'scheinen', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '4', text: 'gingen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '5', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '6', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "When the sun shone, we went to the beach.",
-            target: ['Als', 'die Sonne', 'schien', ',', 'gingen', 'wir', 'an den Strand', '.']
           }
         ]
       },
@@ -5893,27 +5364,6 @@ export const CATEGORIES_DATA: Categories = {
       }
     ],
     nachdem: [
-      {
-        title: "GOD nachdem 1",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'gelernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
-        { id: '4', text: 'hatten', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'machten', infinitive: 'machen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'die Prüfung', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After we had learned, we did the exam.",
-            target: ['Nachdem', 'wir', 'gelernt', 'hatten', ',', 'machten', 'wir', 'die Prüfung', '.']
-          }
-        ]
-      },
       {
         title: "GOD nachdem 2",
         bank: [
@@ -5955,28 +5405,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "After they had eaten pizza, they were full.",
             target: ['Nachdem', 'sie', 'Pizza', 'gegessen', 'hatten', ',', 'waren', 'sie', 'satt', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD nachdem 4",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'die Sehenswürdigkeiten', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'besucht', infinitive: 'besuchen', type: 'verb', cat: 'verb' },
-        { id: '5', text: 'hatten', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'gingen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '7', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '8', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After we had visited the sights, we went to the cafe.",
-            target: ['Nachdem', 'wir', 'die Sehenswürdigkeiten', 'besucht', 'hatten', ',', 'gingen', 'wir', 'ins Cafe', '.']
           }
         ]
       },
@@ -6036,9 +5464,9 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '3', text: 'Fußball', type: 'standard', cat: 'detail' },
         { id: '4', text: 'gespielt', infinitive: 'spielen', type: 'verb', cat: 'verb' },
-        { id: '5', text: 'hatten', options: ['hatten', 'waren'], type: 'dropdown', cat: 'verb' },
+        { id: '5', text: 'hatten', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '6', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '7', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '8', text: 'nach Hause', type: 'standard', cat: 'place' },
         { id: '9', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
@@ -6142,27 +5570,6 @@ export const CATEGORIES_DATA: Categories = {
         ]
       },
       {
-        title: "GOD nachdem 12",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'gelernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
-        { id: '4', text: 'hatte', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'machte', infinitive: 'machen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'die Prüfung', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After he had learned, he did the exam.",
-            target: ['Nachdem', 'er', 'gelernt', 'hatte', ',', 'machte', 'er', 'die Prüfung', '.']
-          }
-        ]
-      },
-      {
         title: "GOD nachdem 13",
         bank: [
           { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
@@ -6180,28 +5587,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "After I had worked, I was tired.",
             target: ['Nachdem', 'ich', 'gearbeitet', 'hatte', ',', 'war', 'ich', 'müde', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD nachdem 14",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'die Sehenswürdigkeiten', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'besucht', infinitive: 'besuchen', type: 'verb', cat: 'verb' },
-        { id: '5', text: 'hatten', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'gingen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '7', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '8', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After they had visited the sights, they went to the cafe.",
-            target: ['Nachdem', 'sie', 'die Sehenswürdigkeiten', 'besucht', 'hatten', ',', 'gingen', 'sie', 'ins Cafe', '.']
           }
         ]
       },
@@ -6224,52 +5609,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "After it had rained, the garden was beautiful.",
             target: ['Nachdem', 'es', 'regnet', 'hatte', ',', 'war', 'der', 'Garten', 'schön', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD nachdem 16",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'Fußball', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'gespielt', infinitive: 'spielen', type: 'verb', cat: 'verb' },
-        { id: '5', text: 'hatten', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'tranken', infinitive: 'trinken', type: 'verb', cat: 'verb' },
-        { id: '7', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '8', text: 'Wasser', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After we had played football, we drank water.",
-            target: ['Nachdem', 'wir', 'Fußball', 'gespielt', 'hatten', ',', 'tranken', 'wir', 'Wasser', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD nachdem 17",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'das', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'Buch', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'gelesen', infinitive: 'lesen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'hatte', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '7', text: 'gab', infinitive: 'geben', type: 'verb', cat: 'verb' },
-        { id: '8', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '9', text: 'es', type: 'standard', cat: 'subject' },
-        { id: '10', text: 'mir', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After he had read the book, he gave it to me.",
-            target: ['Nachdem', 'er', 'das', 'Buch', 'gelesen', 'hatte', ',', 'gab', 'er', 'es', 'mir', '.']
           }
         ]
       },
@@ -6317,29 +5656,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "After I had done the homework, I watched TV.",
             target: ['Nachdem', 'ich', 'die Hausaufgaben', 'gemacht', 'hatte', ',', 'sah', 'ich', 'fern', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD nachdem 20",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'das', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'Auto', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'gekauft', infinitive: 'kaufen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'hatten', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '7', text: 'fuhren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
-        { id: '8', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '9', text: 'in', base: 'Berge', gender: 'pl', options: ['in den', 'in die'], type: 'dropdown', cat: 'place' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After they had bought the car, they travelled to the mountains.",
-            target: ['Nachdem', 'sie', 'das', 'Auto', 'gekauft', 'hatten', ',', 'fuhren', 'sie', 'in die Berge', '.']
           }
         ]
       }
@@ -6418,9 +5734,9 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '3', text: 'keine', type: 'standard', cat: 'detail' },
         { id: '4', text: 'Zeit', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'hatte', options: ['hatte', 'war'], type: 'dropdown', cat: 'verb' },
+        { id: '5', text: 'hatte', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'habe', options: ['habe', 'bin'], type: 'dropdown', cat: 'verb' },
+        { id: '6', text: 'habe', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '7', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '8', text: 'nicht', type: 'standard', cat: 'adverb' },
         { id: '9', text: 'gearbeitet', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
@@ -6441,9 +5757,9 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '3', text: 'Pizza', type: 'standard', cat: 'detail' },
         { id: '4', text: 'gegessen', infinitive: 'essen', type: 'verb', cat: 'verb' },
-        { id: '5', text: 'hatten', options: ['hatten', 'waren'], type: 'dropdown', cat: 'verb' },
+        { id: '5', text: 'hatten', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'sind', options: ['haben', 'sind'], type: 'dropdown', cat: 'verb' },
+        { id: '6', text: 'sind', infinitive: 'sein', type: 'auxVerb', cat: 'verb' },
         { id: '7', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '8', text: 'ins Kino', type: 'standard', cat: 'detail' },
         { id: '9', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
@@ -6636,9 +5952,9 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '3', text: 'keine', type: 'standard', cat: 'detail' },
         { id: '4', text: 'Zeit', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'hatte', options: ['hatte', 'war'], type: 'dropdown', cat: 'verb' },
+        { id: '5', text: 'hatte', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'habe', options: ['habe', 'bin'], type: 'dropdown', cat: 'verb' },
+        { id: '6', text: 'habe', infinitive: 'haben', type: 'auxVerb', cat: 'verb' },
         { id: '7', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '8', text: 'nicht', type: 'standard', cat: 'adverb' },
         { id: '9', text: 'angerufen', infinitive: 'anrufen', type: 'verb', cat: 'verb' },
@@ -6649,28 +5965,6 @@ export const CATEGORIES_DATA: Categories = {
             instruction: "Bilde den Satz.",
             english: "Since I had no time, I didn't call.",
             target: ['Da', 'ich', 'keine', 'Zeit', 'hatte', ',', 'habe', 'ich', 'nicht', 'angerufen', '.']
-          }
-        ]
-      },
-      {
-        title: "GOD mixture 15",
-        bank: [
-          { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
-        { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'Pizza', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'gegessen', infinitive: 'essen', type: 'verb', cat: 'verb' },
-        { id: '5', text: 'hatten', infinitive: 'haben', type: 'verb', cat: 'verb' },
-        { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'gingen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '7', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '8', text: 'ins Kino', type: 'standard', cat: 'detail' },
-        { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
-        ],
-        steps: [
-          {
-            instruction: "Bilde den Satz.",
-            english: "After we had eaten pizza, we went to the cinema.",
-            target: ['Nachdem', 'wir', 'Pizza', 'gegessen', 'hatten', ',', 'gingen', 'wir', 'ins Kino', '.']
           }
         ]
       },
