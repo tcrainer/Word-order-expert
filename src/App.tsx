@@ -20,6 +20,7 @@ export default function App() {
   const [showHint, setShowHint] = useState(false);
   const [streak, setStreak] = useState(0);
   const [numSentences, setNumSentences] = useState(6);
+  const [completedStep1, setCompletedStep1] = useState<string | null>(null);
   const isDragging = useRef(false);
 
   const goToMenu = () => {
@@ -30,6 +31,7 @@ export default function App() {
     setExIdx(0);
     setStepIdx(0);
     setShowHint(false);
+    setCompletedStep1(null);
   };
 
   const selectCategory = (cat: string) => {
@@ -173,8 +175,19 @@ export default function App() {
     let newSIdx = stepIdx;
 
     if (stepIdx < ex.steps.length - 1) {
+      // Moving to next step within same exercise — save the completed sentence
+      const completedSentence = selectedCards.map(c => {
+        if (c.type === 'standard') return c.text || '';
+        if (c.type === 'verb') return c.userValue || '';
+        if (c.type === 'auxVerb') return c.userValue || '';
+        if (c.type === 'dropdown') return `${c.userValue || ''} ${c.base || ''}`.trim();
+        if (c.type === 'punctuation') return c.text || '';
+        return '';
+      }).filter(Boolean).join(' ');
+      setCompletedStep1(completedSentence);
       newSIdx++;
     } else if (exIdx < exercises.length - 1) {
+      setCompletedStep1(null);
       newEIdx++;
       newSIdx = 0;
     } else {
@@ -390,6 +403,13 @@ export default function App() {
                       </motion.div>
                     )}
                   </AnimatePresence>
+                </div>
+              )}
+
+              {completedStep1 && stepIdx > 0 && (
+                <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 mb-4">
+                  <div className="text-emerald-400 font-bold text-xs uppercase tracking-widest mb-1">✓ Schritt 1 — dein Satz</div>
+                  <p className="font-display text-lg text-emerald-200">{completedStep1}</p>
                 </div>
               )}
 
