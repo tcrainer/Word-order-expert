@@ -16,7 +16,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'essen', infinitive: 'essen', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'im Restaurant', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Restaurant', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'Pizza', type: 'standard', cat: 'detail' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -34,7 +34,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Manchmal', type: 'standard', cat: 'time' },
         { id: '2', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: '3', text: 'meine Freunde', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'in den Park', type: 'standard', cat: 'place' },
+        { id: '4', text: 'in', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'aber', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
@@ -57,7 +57,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'trinkt', infinitive: 'trinken', type: 'verb', cat: 'verb' },
         { id: '3', text: 'er', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'Tee', type: 'standard', cat: 'detail' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -98,7 +98,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Jeden Tag', type: 'standard', cat: 'time' },
         { id: '2', text: 'lernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
         { id: '3', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'in der Schule', type: 'standard', cat: 'place' },
+        { id: '4', text: 'in', base: 'Schule', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'Deutsch', type: 'standard', cat: 'detail' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '6', text: 'denn', type: 'standard', cat: 'subjunction' },
@@ -143,7 +143,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'fahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'am Wochenende', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'an den Strand', type: 'standard', cat: 'place' },
+        { id: '5', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -161,7 +161,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'besichtigen', infinitive: 'besichtigen', type: 'verb', cat: 'verb' },
         { id: '3', text: 'sie', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'in der Stadt', type: 'standard', cat: 'place' },
+        { id: '5', text: 'in', base: 'Stadt', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'die Sehenswürdigkeiten', type: 'standard', cat: 'detail' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -252,15 +252,14 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Oft', type: 'standard', cat: 'time' },
         { id: '2', text: 'fotografiert', infinitive: 'fotografieren', type: 'verb', cat: 'verb' },
         { id: '3', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'im', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'Park', type: 'standard', cat: 'detail' },
+        { id: '4', text: 'im', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
           {
             instruction: "Bilde den Satz.",
             english: "Often she takes photos in the park.",
-            target: ['Oft', 'fotografiert', 'sie', 'im', 'Park', '.']
+            target: ['Oft', 'fotografiert', 'sie', 'im Park', '.']
           }
         ]
       },
@@ -408,7 +407,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'habe', infinitive: 'haben', type: 'verb', cat: 'verb' },
         { id: '3', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'im Garten', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Garten', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'gearbeitet', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -426,7 +425,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Letzte Woche', type: 'standard', cat: 'time' },
         { id: '2', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'aber', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'heute', type: 'standard', cat: 'detail' },
@@ -473,15 +472,14 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'am Wochenende', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '5', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
           {
             instruction: "Bilde den Satz.",
             english: "Two years ago we were at the beach at the weekend.",
-            target: ['Vor zwei Jahren', 'waren', 'wir', 'am Wochenende', 'am', 'Strand', '.']
+            target: ['Vor zwei Jahren', 'waren', 'wir', 'am Wochenende', 'am Strand', '.']
           }
         ]
       },
@@ -537,8 +535,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Dann', type: 'standard', cat: 'time' },
         { id: '2', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'ins', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'Restaurant', type: 'standard', cat: 'detail' },
+        { id: '4', text: 'im', base: 'Restaurant', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -546,7 +543,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "Then we went to the restaurant.",
-            target: ['Dann', 'sind', 'wir', 'ins', 'Restaurant', 'gegangen', '.']
+            target: ['Dann', 'sind', 'wir', 'ins Restaurant', 'gegangen', '.']
           }
         ]
       },
@@ -579,7 +576,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Letzte Woche', type: 'standard', cat: 'time' },
         { id: '2', text: 'haben', infinitive: 'haben', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'Pizza', type: 'standard', cat: 'detail' },
         { id: '6', text: 'gegessen', infinitive: 'essen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
@@ -598,7 +595,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Früher', type: 'standard', cat: 'time' },
         { id: '2', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'in der Schule', type: 'standard', cat: 'place' },
+        { id: '4', text: 'in', base: 'Schule', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'jünger', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -616,7 +613,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Gestern', type: 'standard', cat: 'time' },
         { id: '2', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -689,15 +686,14 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Vor zwei Jahren', type: 'standard', cat: 'time' },
         { id: '2', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '4', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
           {
             instruction: "Bilde den Satz.",
             english: "Two years ago we were at the beach.",
-            target: ['Vor zwei Jahren', 'waren', 'wir', 'am', 'Strand', '.']
+            target: ['Vor zwei Jahren', 'waren', 'wir', 'am Strand', '.']
           }
         ]
       },
@@ -706,8 +702,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'ins', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'Cafe', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '6', text: 'aber', type: 'standard', cat: 'subjunction' },
@@ -720,7 +715,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "We went to the cafe, but it was boring.",
-            target: ['Wir', 'sind', 'ins', 'Cafe', 'gegangen', ',', 'aber', 'es', 'war', 'langweilig', '.']
+            target: ['Wir', 'sind', 'ins Cafe', 'gegangen', ',', 'aber', 'es', 'war', 'langweilig', '.']
           }
         ]
       },
@@ -769,7 +764,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'im Restaurant', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Restaurant', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'oder', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'wir', type: 'standard', cat: 'subject' },
@@ -810,7 +805,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Morgen', type: 'standard', cat: 'time' },
         { id: '2', text: 'werde', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'ich', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'in der Stadt', type: 'standard', cat: 'place' },
+        { id: '4', text: 'in', base: 'Stadt', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'die Sehenswürdigkeiten', type: 'standard', cat: 'detail' },
         { id: '6', text: 'besichtigen', infinitive: 'besichtigen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
@@ -829,7 +824,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Nächste Woche', type: 'standard', cat: 'time' },
         { id: '2', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'in die Berge', type: 'standard', cat: 'place' },
+        { id: '4', text: 'in', base: 'Berge', gender: 'pl', options: ['in den', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'fahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -870,7 +865,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'im Garten', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Garten', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'sitzen', infinitive: 'sitzen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -952,7 +947,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Nächste Woche', type: 'standard', cat: 'time' },
         { id: '2', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'meine Freunde', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'sein', type: 'standard', cat: 'detail' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1028,7 +1023,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Nächste Woche', type: 'standard', cat: 'time' },
         { id: '2', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'in die Berge', type: 'standard', cat: 'place' },
+        { id: '4', text: 'in', base: 'Berge', gender: 'pl', options: ['in den', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'fahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1231,7 +1226,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'hätte', infinitive: 'haben', type: 'verb', cat: 'verb' },
         { id: '3', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'Zeit', type: 'standard', cat: 'detail' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1250,7 +1245,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'würden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'an den Strand', type: 'standard', cat: 'place' },
+        { id: '5', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'fahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1370,8 +1365,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'würden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'meine Freunde', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'im', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'Park', type: 'standard', cat: 'detail' },
+        { id: '5', text: 'im', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '7', text: 'spielen', infinitive: 'spielen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1379,7 +1373,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "Today my friends would gladly play in the park.",
-            target: ['Heute', 'würden', 'meine Freunde', 'gern', 'im', 'Park', 'spielen', '.']
+            target: ['Heute', 'würden', 'meine Freunde', 'gern', 'im Park', 'spielen', '.']
           }
         ]
       },
@@ -1448,7 +1442,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'würden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'an den Strand', type: 'standard', cat: 'place' },
+        { id: '5', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'fahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1467,7 +1461,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'wäre', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'sie', type: 'standard', cat: 'subject' },
         { id: '4', text: 'gern', type: 'standard', cat: 'adverb' },
-        { id: '5', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -1506,7 +1500,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Dann', type: 'standard', cat: 'time' },
         { id: '2', text: 'würden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '4', text: 'im Garten', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Garten', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'sitzen', infinitive: 'sitzen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1614,7 +1608,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '4', text: 'weil', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '6', text: 'am Wochenende', type: 'standard', cat: 'detail' },
-        { id: '7', text: 'in den Park', type: 'standard', cat: 'place' },
+        { id: '7', text: 'in', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '8', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -1674,8 +1668,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'ins', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'Restaurant', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'im', base: 'Restaurant', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'wenn', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
@@ -1687,7 +1680,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "We go to the restaurant if we are hungry.",
-            target: ['Wir', 'gehen', 'ins', 'Restaurant', ',', 'wenn', 'wir', 'Hunger', 'haben', '.']
+            target: ['Wir', 'gehen', 'ins Restaurant', ',', 'wenn', 'wir', 'Hunger', 'haben', '.']
           }
         ]
       },
@@ -1702,7 +1695,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '5', text: 'sich', type: 'standard', cat: 'detail' },
         { id: '6', text: 'lohnt', infinitive: 'lohnen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '7', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '7', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '8', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '9', text: 'leben', infinitive: 'leben', type: 'verb', cat: 'verb' },
         { id: 'c3', text: '.', type: 'standard', cat: 'punctuation' }
@@ -1887,7 +1880,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'in den Park', type: 'standard', cat: 'place' },
+        { id: '3', text: 'in', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'wenn', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'wir', type: 'standard', cat: 'subject' },
@@ -2085,8 +2078,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '3', text: 'dass', type: 'standard', cat: 'subjunction' },
         { id: '4', text: 'meine Freunde', type: 'standard', cat: 'subject' },
-        { id: '5', text: 'im', type: 'standard', cat: 'detail' },
-        { id: '6', text: 'Kino', type: 'standard', cat: 'detail' },
+        { id: '5', text: 'im', base: 'Kino', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '7', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -2094,7 +2086,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "I thought that my friends were in the cinema.",
-            target: ['Ich', 'dachte', ',', 'dass', 'meine Freunde', 'im', 'Kino', 'waren', '.']
+            target: ['Ich', 'dachte', ',', 'dass', 'meine Freunde', 'im Kino', 'waren', '.']
           }
         ]
       },
@@ -2103,7 +2095,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'an den Strand', type: 'standard', cat: 'place' },
+        { id: '3', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'gegangen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'wenn', type: 'standard', cat: 'subjunction' },
@@ -2168,7 +2160,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'obwohl', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'wir', type: 'standard', cat: 'subject' },
@@ -2321,8 +2313,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'geblieben', infinitive: 'bleiben', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '6', text: 'wenn', type: 'standard', cat: 'subjunction' },
@@ -2335,7 +2326,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "We stayed at the beach when it was beautiful.",
-            target: ['Wir', 'sind', 'am', 'Strand', 'geblieben', ',', 'wenn', 'es', 'schön', 'war', '.']
+            target: ['Wir', 'sind', 'am Strand', 'geblieben', ',', 'wenn', 'es', 'schön', 'war', '.']
           }
         ]
       },
@@ -2544,7 +2535,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'wenn', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '7', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '8', text: 'sein', type: 'standard', cat: 'detail' },
         { id: '9', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -2653,7 +2644,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '3', text: 'dass', type: 'standard', cat: 'subjunction' },
         { id: '4', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '5', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'sein', type: 'standard', cat: 'detail' },
         { id: '7', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -2876,7 +2867,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '3', text: 'dass', type: 'standard', cat: 'subjunction' },
         { id: '4', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '5', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'sein', type: 'standard', cat: 'detail' },
         { id: '7', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -2899,7 +2890,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'wenn', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '7', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '8', text: 'leben', infinitive: 'leben', type: 'verb', cat: 'verb' },
         { id: '9', text: 'werden', infinitive: 'werden', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -2987,8 +2978,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'wenn', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '8', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '7', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '9', text: 'wären', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -2996,7 +2986,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "I would be happy if we were at the beach.",
-            target: ['Ich', 'würde', 'mich', 'freuen', ',', 'wenn', 'wir', 'am', 'Strand', 'wären', '.']
+            target: ['Ich', 'würde', 'mich', 'freuen', ',', 'wenn', 'wir', 'am Strand', 'wären', '.']
           }
         ]
       },
@@ -3203,8 +3193,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'wenn', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '8', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '7', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '9', text: 'wären', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -3212,7 +3201,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "I would be happy if we were at the beach.",
-            target: ['Ich', 'würde', 'mich', 'freuen', ',', 'wenn', 'wir', 'am', 'Strand', 'wären', '.']
+            target: ['Ich', 'würde', 'mich', 'freuen', ',', 'wenn', 'wir', 'am Strand', 'wären', '.']
           }
         ]
       },
@@ -3356,7 +3345,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'fahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'in die Berge', type: 'standard', cat: 'place' },
+        { id: '3', text: 'in', base: 'Berge', gender: 'pl', options: ['in den', 'in die'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'zu', type: 'standard', cat: 'subjunction' },
@@ -3378,7 +3367,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'ist', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'schön', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '4', text: 'im Garten', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Garten', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'sitzen', infinitive: 'sitzen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -3418,8 +3407,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Er', type: 'standard', cat: 'subject' },
         { id: '2', text: 'geht', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'ins', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'Cafe', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'einen Tee', type: 'standard', cat: 'detail' },
@@ -3431,7 +3419,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "He goes to the cafe in order to drink a tea.",
-            target: ['Er', 'geht', 'ins', 'Cafe', ',', 'um', 'einen Tee', 'zu', 'trinken', '.']
+            target: ['Er', 'geht', 'ins Cafe', ',', 'um', 'einen Tee', 'zu', 'trinken', '.']
           }
         ]
       },
@@ -3481,7 +3469,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'in den Park', type: 'standard', cat: 'place' },
+        { id: '3', text: 'in', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'Fußball', type: 'standard', cat: 'detail' },
@@ -3566,7 +3554,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'fahren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'in die Berge', type: 'standard', cat: 'place' },
+        { id: '3', text: 'in', base: 'Berge', gender: 'pl', options: ['in den', 'in die'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'zu', type: 'standard', cat: 'subjunction' },
@@ -3588,7 +3576,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'ist', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'schön', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '4', text: 'im Garten', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Garten', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'sitzen', infinitive: 'sitzen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -3627,8 +3615,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
         { id: '2', text: 'gehe', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'ins', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'Cafe', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '6', text: 'einen Kaffee', type: 'standard', cat: 'detail' },
@@ -3640,7 +3627,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "I go to the cafe in order to drink a coffee.",
-            target: ['Ich', 'gehe', 'ins', 'Cafe', ',', 'um', 'einen Kaffee', 'zu', 'trinken', '.']
+            target: ['Ich', 'gehe', 'ins Cafe', ',', 'um', 'einen Kaffee', 'zu', 'trinken', '.']
           }
         ]
       },
@@ -3690,7 +3677,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'in den Park', type: 'standard', cat: 'place' },
+        { id: '3', text: 'in', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'Fußball', type: 'standard', cat: 'detail' },
@@ -3803,8 +3790,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'schön', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '4', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '4', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '7', text: 'sein', type: 'standard', cat: 'detail' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -3813,7 +3799,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "It was nice to be at the beach.",
-            target: ['Es', 'war', 'schön', ',', 'am', 'Strand', 'zu', 'sein', '.']
+            target: ['Es', 'war', 'schön', ',', 'am Strand', 'zu', 'sein', '.']
           }
         ]
       },
@@ -3905,7 +3891,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'Kaffee', type: 'standard', cat: 'detail' },
@@ -3950,7 +3936,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '7', text: 'leben', infinitive: 'leben', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -3971,7 +3957,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '3', text: 'gelernt', infinitive: 'lernen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
-        { id: '5', text: 'in der Schule', type: 'standard', cat: 'place' },
+        { id: '5', text: 'in', base: 'Schule', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'besser', type: 'standard', cat: 'adjective' },
         { id: '7', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '8', text: 'sein', type: 'standard', cat: 'detail' },
@@ -4016,8 +4002,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '2', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '3', text: 'schön', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '4', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '5', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '4', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '7', text: 'sein', type: 'standard', cat: 'detail' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -4026,7 +4011,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "It was nice to be at the beach.",
-            target: ['Es', 'war', 'schön', ',', 'am', 'Strand', 'zu', 'sein', '.']
+            target: ['Es', 'war', 'schön', ',', 'am Strand', 'zu', 'sein', '.']
           }
         ]
       },
@@ -4118,7 +4103,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wir', type: 'standard', cat: 'subject' },
         { id: '2', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
-        { id: '3', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'um', type: 'standard', cat: 'subjunction' },
         { id: '5', text: 'Tee', type: 'standard', cat: 'detail' },
@@ -4163,7 +4148,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '7', text: 'leben', infinitive: 'leben', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -4381,7 +4366,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
         { id: '5', text: 'finden', type: 'standard', cat: 'detail' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '6', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '6', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '7', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '8', text: 'leben', infinitive: 'leben', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -4403,8 +4388,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '4', text: 'haben', infinitive: 'haben', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'um', type: 'standard', cat: 'subjunction' },
-        { id: '6', text: 'im', type: 'standard', cat: 'detail' },
-        { id: '7', text: 'Park', type: 'standard', cat: 'detail' },
+        { id: '6', text: 'im', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '8', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '9', text: 'spielen', infinitive: 'spielen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -4413,7 +4397,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "We will have time in order to play in the park.",
-            target: ['Wir', 'werden', 'Zeit', 'haben', ',', 'um', 'im', 'Park', 'zu', 'spielen', '.']
+            target: ['Wir', 'werden', 'Zeit', 'haben', ',', 'um', 'im Park', 'zu', 'spielen', '.']
           }
         ]
       },
@@ -4448,7 +4432,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '3', text: 'schön', type: 'standard', cat: 'adjective' },
         { id: '4', text: 'sein', type: 'standard', cat: 'detail' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '7', text: 'sitzen', infinitive: 'sitzen', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -4678,11 +4662,11 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT conditional 3",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', type: 'standard', cat: 'detail' },
+        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '7', text: 'arbeiten', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -4741,7 +4725,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT conditional 6",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', type: 'standard', cat: 'detail' },
+        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'wichtig', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -4804,7 +4788,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT conditional 9",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', type: 'standard', cat: 'detail' },
+        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -4886,11 +4870,11 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT conditional 13",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', type: 'standard', cat: 'detail' },
+        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'toll', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '5', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '6', text: 'zu', type: 'standard', cat: 'subjunction' },
         { id: '7', text: 'arbeiten', infinitive: 'arbeiten', type: 'verb', cat: 'verb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -4948,7 +4932,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT conditional 16",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', type: 'standard', cat: 'detail' },
+        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'wichtig', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -5011,7 +4995,7 @@ export const CATEGORIES_DATA: Categories = {
         title: "EXPERT conditional 19",
         bank: [
           { id: '1', text: 'Ich', type: 'standard', cat: 'subject' },
-        { id: '2', text: 'fände', type: 'standard', cat: 'detail' },
+        { id: '2', text: 'fände', infinitive: 'finden', type: 'verb', cat: 'verb' },
         { id: '3', text: 'es', type: 'standard', cat: 'subject' },
         { id: '4', text: 'interessant', type: 'standard', cat: 'adjective' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -5105,7 +5089,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '4', text: 'haben', infinitive: 'haben', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'essen', infinitive: 'essen', type: 'verb', cat: 'verb' },
-        { id: '6', text: 'im Restaurant', type: 'standard', cat: 'place' },
+        { id: '6', text: 'im', base: 'Restaurant', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '7', text: 'Pizza', type: 'standard', cat: 'detail' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
@@ -5148,7 +5132,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'an den Strand', type: 'standard', cat: 'place' },
+        { id: '7', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -5361,7 +5345,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'gehen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'in den Park', type: 'standard', cat: 'place' },
+        { id: '7', text: 'in', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -5490,7 +5474,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '3', text: 'jünger', type: 'standard', cat: 'adjective' },
         { id: '4', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'spielte', type: 'standard', cat: 'detail' },
+        { id: '5', text: 'spielte', infinitive: 'spielen', type: 'verb', cat: 'verb' },
         { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '7', text: 'oft', type: 'standard', cat: 'time' },
         { id: '8', text: 'Fußball', type: 'standard', cat: 'detail' },
@@ -5514,7 +5498,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'sitzen', infinitive: 'sitzen', type: 'verb', cat: 'verb' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '7', text: 'im Garten', type: 'standard', cat: 'place' },
+        { id: '7', text: 'im', base: 'Garten', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -5530,7 +5514,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'haben', infinitive: 'haben', type: 'verb', cat: 'verb' },
@@ -5574,7 +5558,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'er', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'in der Schule', type: 'standard', cat: 'place' },
+        { id: '3', text: 'in', base: 'Schule', gender: 'f', options: ['in der', 'in die'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'hat', infinitive: 'haben', type: 'verb', cat: 'verb' },
@@ -5617,8 +5601,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '6', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
@@ -5630,7 +5613,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "When we were at the beach, it was great.",
-            target: ['Als', 'wir', 'am', 'Strand', 'waren', ',', 'war', 'es', 'toll', '.']
+            target: ['Als', 'wir', 'am Strand', 'waren', ',', 'war', 'es', 'toll', '.']
           }
         ]
       },
@@ -5683,7 +5666,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'trinken', type: 'standard', cat: 'detail' },
@@ -5707,7 +5690,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: '3', text: 'ein Kind', type: 'standard', cat: 'detail' },
         { id: '4', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'spielte', type: 'standard', cat: 'detail' },
+        { id: '5', text: 'spielte', infinitive: 'spielen', type: 'verb', cat: 'verb' },
         { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '7', text: 'oft', type: 'standard', cat: 'time' },
         { id: '8', text: 'Fußball', type: 'standard', cat: 'detail' },
@@ -5747,10 +5730,10 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
-        { id: '5', text: 'besichtigten', type: 'standard', cat: 'detail' },
+        { id: '5', text: 'besichtigten', infinitive: 'besichtigen', type: 'verb', cat: 'verb' },
         { id: '6', text: 'wir', type: 'standard', cat: 'subject' },
         { id: '7', text: 'viel', type: 'standard', cat: 'adverb' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
@@ -5831,7 +5814,7 @@ export const CATEGORIES_DATA: Categories = {
           { id: '1', text: 'Als', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '3', text: 'gestern', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'im Cafe', type: 'standard', cat: 'place' },
+        { id: '4', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '6', text: 'traf', infinitive: 'treffen', type: 'verb', cat: 'verb' },
@@ -5852,7 +5835,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Wenn', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'du', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'kommst', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'kommst', infinitive: 'kommen', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'trinken', type: 'standard', cat: 'detail' },
         { id: '5', text: 'wir', type: 'standard', cat: 'subject' },
@@ -5876,7 +5859,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '4', text: 'gingen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: '5', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '6', text: 'an den Strand', type: 'standard', cat: 'place' },
+        { id: '6', text: 'an', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -5986,15 +5969,14 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '6', text: 'gingen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: '7', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '8', text: 'ins', type: 'standard', cat: 'detail' },
-        { id: '9', text: 'Cafe', type: 'standard', cat: 'detail' },
+        { id: '8', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
           {
             instruction: "Bilde den Satz.",
             english: "After we had visited the sights, we went to the cafe.",
-            target: ['Nachdem', 'wir', 'die Sehenswürdigkeiten', 'besucht', 'hatten', ',', 'gingen', 'wir', 'ins', 'Cafe', '.']
+            target: ['Nachdem', 'wir', 'die Sehenswürdigkeiten', 'besucht', 'hatten', ',', 'gingen', 'wir', 'ins Cafe', '.']
           }
         ]
       },
@@ -6097,8 +6079,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im', type: 'standard', cat: 'detail' },
-        { id: '4', text: 'Park', type: 'standard', cat: 'detail' },
+        { id: '3', text: 'im', base: 'Park', gender: 'm', options: ['im', 'in den'], type: 'dropdown', cat: 'place' },
         { id: '5', text: 'fotografiert', infinitive: 'fotografieren', type: 'verb', cat: 'verb' },
         { id: '6', text: 'hatte', infinitive: 'haben', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -6113,7 +6094,7 @@ export const CATEGORIES_DATA: Categories = {
           {
             instruction: "Bilde den Satz.",
             english: "After she had taken photos in the park, she went to the city.",
-            target: ['Nachdem', 'sie', 'im', 'Park', 'fotografiert', 'hatte', ',', 'ging', 'sie', 'in', 'die', 'Stadt', '.']
+            target: ['Nachdem', 'sie', 'im Park', 'fotografiert', 'hatte', ',', 'ging', 'sie', 'in', 'die', 'Stadt', '.']
           }
         ]
       },
@@ -6122,7 +6103,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Nachdem', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im Restaurant', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Restaurant', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'gewesen', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '5', text: 'waren', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
@@ -6213,15 +6194,14 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '6', text: 'gingen', infinitive: 'gehen', type: 'verb', cat: 'verb' },
         { id: '7', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '8', text: 'ins', type: 'standard', cat: 'detail' },
-        { id: '9', text: 'Cafe', type: 'standard', cat: 'detail' },
+        { id: '8', text: 'im', base: 'Cafe', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
           {
             instruction: "Bilde den Satz.",
             english: "After they had visited the sights, they went to the cafe.",
-            target: ['Nachdem', 'sie', 'die Sehenswürdigkeiten', 'besucht', 'hatten', ',', 'gingen', 'sie', 'ins', 'Cafe', '.']
+            target: ['Nachdem', 'sie', 'die Sehenswürdigkeiten', 'besucht', 'hatten', ',', 'gingen', 'sie', 'ins Cafe', '.']
           }
         ]
       },
@@ -6352,7 +6332,7 @@ export const CATEGORIES_DATA: Categories = {
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '7', text: 'fuhren', infinitive: 'fahren', type: 'verb', cat: 'verb' },
         { id: '8', text: 'sie', type: 'standard', cat: 'subject' },
-        { id: '9', text: 'in die Berge', type: 'standard', cat: 'place' },
+        { id: '9', text: 'in', base: 'Berge', gender: 'pl', options: ['in den', 'in die'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
@@ -6392,7 +6372,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Weil', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'besichtigen', infinitive: 'besichtigen', type: 'verb', cat: 'verb' },
@@ -6488,15 +6468,14 @@ export const CATEGORIES_DATA: Categories = {
         { id: '5', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '7', text: 'oft', type: 'standard', cat: 'time' },
-        { id: '8', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '9', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '8', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
           {
             instruction: "Bilde den Satz.",
             english: "When I was younger, I was often at the beach.",
-            target: ['Als', 'ich', 'jünger', 'war', ',', 'war', 'ich', 'oft', 'am', 'Strand', '.']
+            target: ['Als', 'ich', 'jünger', 'war', ',', 'war', 'ich', 'oft', 'am Strand', '.']
           }
         ]
       },
@@ -6612,7 +6591,7 @@ export const CATEGORIES_DATA: Categories = {
         bank: [
           { id: '1', text: 'Weil', type: 'standard', cat: 'subjunction' },
         { id: '2', text: 'wir', type: 'standard', cat: 'subject' },
-        { id: '3', text: 'im Ausland', type: 'standard', cat: 'place' },
+        { id: '3', text: 'im', base: 'Ausland', gender: 'n', options: ['im', 'ins'], type: 'dropdown', cat: 'place' },
         { id: '4', text: 'sind', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: 'c1', text: ',', type: 'standard', cat: 'punctuation' },
         { id: '5', text: 'besichtigen', infinitive: 'besichtigen', type: 'verb', cat: 'verb' },
@@ -6706,15 +6685,14 @@ export const CATEGORIES_DATA: Categories = {
         { id: '5', text: 'war', infinitive: 'sein', type: 'verb', cat: 'verb' },
         { id: '6', text: 'ich', type: 'standard', cat: 'subject' },
         { id: '7', text: 'oft', type: 'standard', cat: 'time' },
-        { id: '8', text: 'am', type: 'standard', cat: 'detail' },
-        { id: '9', text: 'Strand', type: 'standard', cat: 'detail' },
+        { id: '8', text: 'am', base: 'Strand', gender: 'm', options: ['am', 'an den'], type: 'dropdown', cat: 'place' },
         { id: 'c2', text: '.', type: 'standard', cat: 'punctuation' }
         ],
         steps: [
           {
             instruction: "Bilde den Satz.",
             english: "When I was younger, I was often at the beach.",
-            target: ['Als', 'ich', 'jünger', 'war', ',', 'war', 'ich', 'oft', 'am', 'Strand', '.']
+            target: ['Als', 'ich', 'jünger', 'war', ',', 'war', 'ich', 'oft', 'am Strand', '.']
           }
         ]
       },
