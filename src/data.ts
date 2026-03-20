@@ -1533,9 +1533,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I am happy because we are going to the park at the weekend.",
             target: ['Ich', 'freue', 'mich', ',', 'weil', 'wir', 'am Wochenende', 'in den Park', 'gehen']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I am happy because we are going to the park at the weekend.",
+            target: ['Weil', 'wir', 'am Wochenende', 'in den Park', 'gehen', ',', 'freue', 'ich', 'mich']
           }
         ]
       },
@@ -1553,9 +1558,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He learns German although the exam is hard.",
             target: ['Er', 'lernt', 'Deutsch', ',', 'obwohl', 'die Prüfung', 'schwer', 'ist']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He learns German although the exam is hard.",
+            target: ['Obwohl', 'die Prüfung', 'schwer', 'ist', ',', 'lernt', 'er', 'Deutsch']
           }
         ]
       },
@@ -1574,9 +1584,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I am of the opinion that the weather is beautiful today.",
             target: ['Ich', 'bin', 'der Ansicht', ',', 'dass', 'das Wetter', 'heute', 'schön', 'ist']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I am of the opinion that the weather is beautiful today.",
+            target: ['Dass', 'das Wetter', 'heute', 'schön', 'ist', ',', 'bin', 'ich', 'der Ansicht']
           }
         ]
       },
@@ -1594,9 +1609,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We go to the restaurant if we are hungry.",
             target: ['Wir', 'gehen', 'ins Restaurant', ',', 'wenn', 'wir', 'Hunger', 'haben']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We go to the restaurant if we are hungry.",
+            target: ['Wenn', 'wir', 'Hunger', 'haben', ',', 'gehen', 'wir', 'ins Restaurant']
           }
         ]
       },
@@ -1637,9 +1657,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He is staying at home because he is sick.",
             target: ['Er', 'bleibt', 'zu Hause', ',', 'weil', 'er', 'krank', 'ist']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He is staying at home because he is sick.",
+            target: ['Weil', 'er', 'krank', 'ist', ',', 'bleibt', 'er', 'zu Hause']
           }
         ]
       },
@@ -1657,9 +1682,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We visit the city although it is raining.",
             target: ['Wir', 'besichtigen', 'die', 'Stadt', ',', 'obwohl', 'es', 'regnet']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We visit the city although it is raining.",
+            target: ['Obwohl', 'es', 'regnet', ',', 'besichtigen', 'wir', 'die', 'Stadt']
           }
         ]
       },
@@ -1676,9 +1706,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I know that he is right.",
             target: ['Ich', 'weiß', ',', 'dass', 'er', 'Recht', 'hat']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I know that he is right.",
+            target: ['Dass', 'er', 'Recht', 'hat', ',', 'weiß', 'ich']
           }
         ]
       },
@@ -1696,9 +1731,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We play football if we have time.",
             target: ['Wir', 'spielen', 'Fußball', ',', 'wenn', 'wir', 'Zeit', 'haben']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We play football if we have time.",
+            target: ['Wenn', 'wir', 'Zeit', 'haben', ',', 'spielen', 'wir', 'Fußball']
           }
         ]
       },
@@ -1716,9 +1756,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "She photographs the sights because they are beautiful.",
             target: ['Sie', 'fotografiert', 'die Sehenswürdigkeiten', ',', 'weil', 'sie', 'schön', 'sind']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "She photographs the sights because they are beautiful.",
+            target: ['Weil', 'sie', 'schön', 'sind', ',', 'fotografiert', 'sie', 'die Sehenswürdigkeiten']
           }
         ]
       },
@@ -1736,9 +1781,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I am happy because we have holiday.",
             target: ['Ich', 'freue', 'mich', ',', 'weil', 'wir', 'Urlaub', 'haben']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I am happy because we have holiday.",
+            target: ['Weil', 'wir', 'Urlaub', 'haben', ',', 'freue', 'ich', 'mich']
           }
         ]
       },
@@ -1756,9 +1806,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He learns German although it is hard.",
             target: ['Er', 'lernt', 'Deutsch', ',', 'obwohl', 'es', 'schwer', 'ist']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He learns German although it is hard.",
+            target: ['Obwohl', 'es', 'schwer', 'ist', ',', 'lernt', 'er', 'Deutsch']
           }
         ]
       },
@@ -1776,9 +1831,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I think that the weather is beautiful today.",
             target: ['Ich', 'denke', ',', 'dass', 'das Wetter', 'heute', 'schön', 'ist']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I think that the weather is beautiful today.",
+            target: ['Dass', 'das Wetter', 'heute', 'schön', 'ist', ',', 'denke', 'ich']
           }
         ]
       },
@@ -1796,9 +1856,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We go to the park if we have time.",
             target: ['Wir', 'gehen', 'in den Park', ',', 'wenn', 'wir', 'Zeit', 'haben']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We go to the park if we have time.",
+            target: ['Wenn', 'wir', 'Zeit', 'haben', ',', 'gehen', 'wir', 'in den Park']
           }
         ]
       },
@@ -1815,9 +1880,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "My girlfriend says that she is hungry.",
             target: ['Meine Freundin', 'sagt', ',', 'dass', 'sie', 'Hunger', 'hat']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "My girlfriend says that she is hungry.",
+            target: ['Dass', 'sie', 'Hunger', 'hat', ',', 'sagt', 'meine Freundin']
           }
         ]
       },
@@ -1835,9 +1905,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I am staying at home because I am sick.",
             target: ['Ich', 'bleibe', 'zu Hause', ',', 'weil', 'ich', 'krank', 'bin']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I am staying at home because I am sick.",
+            target: ['Weil', 'ich', 'krank', 'bin', ',', 'bleibe', 'ich', 'zu Hause']
           }
         ]
       },
@@ -1856,9 +1931,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We hike in the mountains although it is raining.",
             target: ['Wir', 'wandern', 'in', 'den', 'Bergen', ',', 'obwohl', 'es', 'regnet']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We hike in the mountains although it is raining.",
+            target: ['Obwohl', 'es', 'regnet', ',', 'wandern', 'wir', 'in', 'den', 'Bergen']
           }
         ]
       },
@@ -1875,9 +1955,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He knows that he is right.",
             target: ['Er', 'weiß', ',', 'dass', 'er', 'Recht', 'hat']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He knows that he is right.",
+            target: ['Dass', 'er', 'Recht', 'hat', ',', 'weiß', 'er']
           }
         ]
       },
@@ -1896,9 +1981,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I visit the cafe when I need coffee.",
             target: ['Ich', 'besuche', 'das', 'Cafe', ',', 'wenn', 'ich', 'Kaffee', 'brauche']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I visit the cafe when I need coffee.",
+            target: ['Wenn', 'ich', 'Kaffee', 'brauche', ',', 'besuche', 'ich', 'das', 'Cafe']
           }
         ]
       },
@@ -1916,9 +2006,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We find that the city is interesting.",
             target: ['Wir', 'finden', ',', 'dass', 'die', 'Stadt', 'interessant', 'ist']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We find that the city is interesting.",
+            target: ['Dass', 'die', 'Stadt', 'interessant', 'ist', ',', 'finden', 'wir']
           }
         ]
       }
@@ -1940,9 +2035,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I was tired because I had worked a lot yesterday.",
             target: ['Ich', 'war', 'müde', ',', 'weil', 'ich', 'gestern', 'viel', 'gearbeitet', 'hatte']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I was tired because I had worked a lot yesterday.",
+            target: ['Weil', 'ich', 'gestern', 'viel', 'gearbeitet', 'hatte', ',', 'war', 'ich', 'müde']
           }
         ]
       },
@@ -1962,9 +2062,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He read the book although it was boring.",
             target: ['Er', 'hat', 'das', 'Buch', 'gelesen', ',', 'obwohl', 'es', 'langweilig', 'war']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He read the book although it was boring.",
+            target: ['Obwohl', 'es', 'langweilig', 'war', ',', 'hat', 'er', 'das', 'Buch', 'gelesen']
           }
         ]
       },
@@ -1983,9 +2088,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We went to the beach when the weather was great.",
             target: ['Wir', 'sind', 'an den Strand', 'gegangen', ',', 'wenn', 'das Wetter', 'toll', 'war']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We went to the beach when the weather was great.",
+            target: ['Wenn', 'das Wetter', 'toll', 'war', ',', 'sind', 'wir', 'an den Strand', 'gegangen']
           }
         ]
       },
@@ -2003,9 +2113,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "She was of the opinion that the exam was hard.",
             target: ['Sie', 'war', 'der Ansicht', ',', 'dass', 'die Prüfung', 'schwer', 'war']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "She was of the opinion that the exam was hard.",
+            target: ['Dass', 'die Prüfung', 'schwer', 'war', ',', 'war', 'sie', 'der Ansicht']
           }
         ]
       },
@@ -2024,9 +2139,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He ate pizza because he was hungry.",
             target: ['Er', 'hat', 'Pizza', 'gegessen', ',', 'weil', 'er', 'Hunger', 'hatte']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He ate pizza because he was hungry.",
+            target: ['Weil', 'er', 'Hunger', 'hatte', ',', 'hat', 'er', 'Pizza', 'gegessen']
           }
         ]
       },
@@ -2045,9 +2165,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We were in the cafe although we drank no coffee.",
             target: ['Wir', 'waren', 'im Cafe', ',', 'obwohl', 'wir', 'keinen Kaffee', 'getrunken', 'haben']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We were in the cafe although we drank no coffee.",
+            target: ['Obwohl', 'wir', 'keinen Kaffee', 'getrunken', 'haben', ',', 'waren', 'wir', 'im Cafe']
           }
         ]
       },
@@ -2065,9 +2190,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I knew that the car was expensive.",
             target: ['Ich', 'wusste', ',', 'dass', 'das', 'Auto', 'teuer', 'war']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I knew that the car was expensive.",
+            target: ['Dass', 'das', 'Auto', 'teuer', 'war', ',', 'wusste', 'ich']
           }
         ]
       },
@@ -2085,9 +2215,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He went home because it was raining.",
             target: ['Er', 'ist', 'nach Hause', 'gegangen', ',', 'weil', 'es', 'regnete']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He went home because it was raining.",
+            target: ['Weil', 'es', 'regnete', ',', 'ist', 'er', 'nach Hause', 'gegangen']
           }
         ]
       },
@@ -2107,9 +2242,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We looked for the camera when we took photos.",
             target: ['Wir', 'haben', 'die', 'Kamera', 'gesucht', ',', 'wenn', 'wir', 'fotografiert', 'haben']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We looked for the camera when we took photos.",
+            target: ['Wenn', 'wir', 'fotografiert', 'haben', ',', 'haben', 'wir', 'die', 'Kamera', 'gesucht']
           }
         ]
       },
@@ -2128,9 +2268,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I was tired because I worked a lot.",
             target: ['Ich', 'war', 'müde', ',', 'weil', 'ich', 'viel', 'gearbeitet', 'habe']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I was tired because I worked a lot.",
+            target: ['Weil', 'ich', 'viel', 'gearbeitet', 'habe', ',', 'war', 'ich', 'müde']
           }
         ]
       },
@@ -2150,9 +2295,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He read the book although it was boring.",
             target: ['Er', 'hat', 'das', 'Buch', 'gelesen', ',', 'obwohl', 'es', 'langweilig', 'war']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He read the book although it was boring.",
+            target: ['Obwohl', 'es', 'langweilig', 'war', ',', 'hat', 'er', 'das', 'Buch', 'gelesen']
           }
         ]
       },
@@ -2171,9 +2321,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We stayed at the beach when it was beautiful.",
             target: ['Wir', 'sind', 'am Strand', 'geblieben', ',', 'wenn', 'es', 'schön', 'war']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We stayed at the beach when it was beautiful.",
+            target: ['Wenn', 'es', 'schön', 'war', ',', 'sind', 'wir', 'am Strand', 'geblieben']
           }
         ]
       },
@@ -2192,9 +2347,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "She ate pizza because she was hungry.",
             target: ['Sie', 'hat', 'Pizza', 'gegessen', ',', 'weil', 'sie', 'Hunger', 'hatte']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "She ate pizza because she was hungry.",
+            target: ['Weil', 'sie', 'Hunger', 'hatte', ',', 'hat', 'sie', 'Pizza', 'gegessen']
           }
         ]
       },
@@ -2213,9 +2373,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "My friend was glad that we had the camera.",
             target: ['Mein Freund', 'war', 'froh', ',', 'dass', 'wir', 'die', 'Kamera', 'hatten']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "My friend was glad that we had the camera.",
+            target: ['Dass', 'wir', 'die', 'Kamera', 'hatten', ',', 'war', 'mein Freund', 'froh']
           }
         ]
       },
@@ -2234,9 +2399,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We played football although we were tired.",
             target: ['Wir', 'haben', 'Fußball', 'gespielt', ',', 'obwohl', 'wir', 'müde', 'waren']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We played football although we were tired.",
+            target: ['Obwohl', 'wir', 'müde', 'waren', ',', 'haben', 'wir', 'Fußball', 'gespielt']
           }
         ]
       },
@@ -2253,9 +2423,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I knew that the exam was hard.",
             target: ['Ich', 'wusste', ',', 'dass', 'die Prüfung', 'schwer', 'war']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I knew that the exam was hard.",
+            target: ['Dass', 'die Prüfung', 'schwer', 'war', ',', 'wusste', 'ich']
           }
         ]
       },
@@ -2273,9 +2448,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He went home because it was raining.",
             target: ['Er', 'ist', 'nach Hause', 'gegangen', ',', 'weil', 'es', 'regnete']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He went home because it was raining.",
+            target: ['Weil', 'es', 'regnete', ',', 'ist', 'er', 'nach Hause', 'gegangen']
           }
         ]
       },
@@ -2293,9 +2473,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "They laughed when we had fun.",
             target: ['Sie', 'haben', 'gelacht', ',', 'wenn', 'wir', 'Spaß', 'hatten']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "They laughed when we had fun.",
+            target: ['Wenn', 'wir', 'Spaß', 'hatten', ',', 'haben', 'sie', 'gelacht']
           }
         ]
       }
@@ -2316,9 +2501,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I will learn because the exam will be important.",
             target: ['Ich', 'werde', 'lernen', ',', 'weil', 'die Prüfung', 'wichtig', 'sein', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I will learn because the exam will be important.",
+            target: ['Weil', 'die Prüfung', 'wichtig', 'sein', 'wird', ',', 'werde', 'ich', 'lernen']
           }
         ]
       },
@@ -2336,9 +2526,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We will travel although it will rain.",
             target: ['Wir', 'werden', 'fahren', ',', 'obwohl', 'es', 'regnen', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We will travel although it will rain.",
+            target: ['Obwohl', 'es', 'regnen', 'wird', ',', 'werden', 'wir', 'fahren']
           }
         ]
       },
@@ -2357,9 +2552,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He thinks that we will have time tomorrow.",
             target: ['Er', 'denkt', ',', 'dass', 'wir', 'morgen', 'Zeit', 'haben', 'werden']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He thinks that we will have time tomorrow.",
+            target: ['Dass', 'wir', 'morgen', 'Zeit', 'haben', 'werden', ',', 'denkt', 'er']
           }
         ]
       },
@@ -2379,9 +2579,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I will be happy if we will be abroad.",
             target: ['Ich', 'werde', 'mich', 'freuen', ',', 'wenn', 'wir', 'im Ausland', 'sein', 'werden']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I will be happy if we will be abroad.",
+            target: ['Wenn', 'wir', 'im Ausland', 'sein', 'werden', ',', 'werde', 'ich', 'mich', 'freuen']
           }
         ]
       },
@@ -2400,9 +2605,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "She will work because she will buy a car.",
             target: ['Sie', 'wird', 'arbeiten', ',', 'weil', 'sie', 'ein Auto', 'kaufen', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "She will work because she will buy a car.",
+            target: ['Weil', 'sie', 'ein Auto', 'kaufen', 'wird', ',', 'wird', 'sie', 'arbeiten']
           }
         ]
       },
@@ -2421,9 +2631,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We believe that the weather will be beautiful at the weekend.",
             target: ['Wir', 'glauben', ',', 'dass', 'das Wetter', 'am Wochenende', 'schön', 'sein', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We believe that the weather will be beautiful at the weekend.",
+            target: ['Dass', 'das Wetter', 'am Wochenende', 'schön', 'sein', 'wird', ',', 'glauben', 'wir']
           }
         ]
       },
@@ -2442,9 +2657,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He will hike although he will be tired.",
             target: ['Er', 'wird', 'wandern', ',', 'obwohl', 'er', 'müde', 'sein', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He will hike although he will be tired.",
+            target: ['Obwohl', 'er', 'müde', 'sein', 'wird', ',', 'wird', 'er', 'wandern']
           }
         ]
       },
@@ -2463,9 +2683,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I will sleep when I will be at home.",
             target: ['Ich', 'werde', 'schlafen', ',', 'wenn', 'ich', 'zu Hause', 'sein', 'werde']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I will sleep when I will be at home.",
+            target: ['Wenn', 'ich', 'zu Hause', 'sein', 'werde', ',', 'werde', 'ich', 'schlafen']
           }
         ]
       },
@@ -2483,9 +2708,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "My friends say that they will be in the cafe.",
             target: ['Meine Freunde', 'sagen', ',', 'dass', 'sie', 'im Cafe', 'sein', 'werden']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "My friends say that they will be in the cafe.",
+            target: ['Dass', 'sie', 'im Cafe', 'sein', 'werden', ',', 'sagen', 'meine Freunde']
           }
         ]
       },
@@ -2508,9 +2738,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "It will be great when we will live in the city.",
             target: ['Es', 'wird', 'toll', 'sein', ',', 'wenn', 'wir', 'in', 'class', 'der', 'Stadt', 'wohnen', 'werden']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "It will be great when we will live in the city.",
+            target: ['Wenn', 'wir', 'in', 'class', 'der', 'Stadt', 'wohnen', 'werden', ',', 'wird', 'es', 'toll', 'sein']
           }
         ]
       },
@@ -2529,9 +2764,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I will learn because the exam will be important.",
             target: ['Ich', 'werde', 'lernen', ',', 'weil', 'die Prüfung', 'wichtig', 'sein', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I will learn because the exam will be important.",
+            target: ['Weil', 'die Prüfung', 'wichtig', 'sein', 'wird', ',', 'werde', 'ich', 'lernen']
           }
         ]
       },
@@ -2550,9 +2790,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We will travel although it will be hard.",
             target: ['Wir', 'werden', 'fahren', ',', 'obwohl', 'es', 'schwer', 'sein', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We will travel although it will be hard.",
+            target: ['Obwohl', 'es', 'schwer', 'sein', 'wird', ',', 'werden', 'wir', 'fahren']
           }
         ]
       },
@@ -2571,9 +2816,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He thinks that we will have time tomorrow.",
             target: ['Er', 'denkt', ',', 'dass', 'wir', 'morgen', 'Zeit', 'haben', 'werden']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He thinks that we will have time tomorrow.",
+            target: ['Dass', 'wir', 'morgen', 'Zeit', 'haben', 'werden', ',', 'denkt', 'er']
           }
         ]
       },
@@ -2592,9 +2842,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I will be happy if you will come.",
             target: ['Ich', 'werde', 'mich', 'freuen', ',', 'wenn', 'du', 'kommen', 'wirst']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I will be happy if you will come.",
+            target: ['Wenn', 'du', 'kommen', 'wirst', ',', 'werde', 'ich', 'mich', 'freuen']
           }
         ]
       },
@@ -2614,9 +2869,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "She will work because she will buy the car.",
             target: ['Sie', 'wird', 'arbeiten', ',', 'weil', 'sie', 'das', 'Auto', 'kaufen', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "She will work because she will buy the car.",
+            target: ['Weil', 'sie', 'das', 'Auto', 'kaufen', 'wird', ',', 'wird', 'sie', 'arbeiten']
           }
         ]
       },
@@ -2634,9 +2894,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We believe that the weather will be beautiful.",
             target: ['Wir', 'glauben', ',', 'dass', 'das Wetter', 'schön', 'sein', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We believe that the weather will be beautiful.",
+            target: ['Dass', 'das Wetter', 'schön', 'sein', 'wird', ',', 'glauben', 'wir']
           }
         ]
       },
@@ -2655,9 +2920,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He will hike although he will be tired.",
             target: ['Er', 'wird', 'wandern', ',', 'obwohl', 'er', 'müde', 'sein', 'wird']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He will hike although he will be tired.",
+            target: ['Obwohl', 'er', 'müde', 'sein', 'wird', ',', 'wird', 'er', 'wandern']
           }
         ]
       },
@@ -2676,9 +2946,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I will sleep when I will be at home.",
             target: ['Ich', 'werde', 'schlafen', ',', 'wenn', 'ich', 'zu Hause', 'sein', 'werde']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I will sleep when I will be at home.",
+            target: ['Wenn', 'ich', 'zu Hause', 'sein', 'werde', ',', 'werde', 'ich', 'schlafen']
           }
         ]
       },
@@ -2696,9 +2971,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "My friends say that they will be in the cafe.",
             target: ['Meine Freunde', 'sagen', ',', 'dass', 'sie', 'im Cafe', 'sein', 'werden']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "My friends say that they will be in the cafe.",
+            target: ['Dass', 'sie', 'im Cafe', 'sein', 'werden', ',', 'sagen', 'meine Freunde']
           }
         ]
       },
@@ -2718,9 +2998,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "It will be great when we will live abroad.",
             target: ['Es', 'wird', 'toll', 'sein', ',', 'wenn', 'wir', 'im Ausland', 'leben', 'werden']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "It will be great when we will live abroad.",
+            target: ['Wenn', 'wir', 'im Ausland', 'leben', 'werden', ',', 'wird', 'es', 'toll', 'sein']
           }
         ]
       }
@@ -2740,9 +3025,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I would learn because it would be important.",
             target: ['Ich', 'würde', 'lernen', ',', 'weil', 'es', 'wichtig', 'wäre']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I would learn because it would be important.",
+            target: ['Weil', 'es', 'wichtig', 'wäre', ',', 'würde', 'ich', 'lernen']
           }
         ]
       },
@@ -2760,9 +3050,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We would hike although it would rain.",
             target: ['Wir', 'würden', 'wandern', ',', 'obwohl', 'es', 'regnen', 'würde']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We would hike although it would rain.",
+            target: ['Obwohl', 'es', 'regnen', 'würde', ',', 'würden', 'wir', 'wandern']
           }
         ]
       },
@@ -2781,9 +3076,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I would be happy if we were at the beach.",
             target: ['Ich', 'würde', 'mich', 'freuen', ',', 'wenn', 'wir', 'am Strand', 'wären']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I would be happy if we were at the beach.",
+            target: ['Wenn', 'wir', 'am Strand', 'wären', ',', 'würde', 'ich', 'mich', 'freuen']
           }
         ]
       },
@@ -2802,9 +3102,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "She would eat pizza because she would be hungry.",
             target: ['Sie', 'würde', 'Pizza', 'essen', ',', 'weil', 'sie', 'Hunger', 'hätte']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "She would eat pizza because she would be hungry.",
+            target: ['Weil', 'sie', 'Hunger', 'hätte', ',', 'würde', 'sie', 'Pizza', 'essen']
           }
         ]
       },
@@ -2824,9 +3129,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He would buy the book although it would be boring.",
             target: ['Er', 'würde', 'das', 'Buch', 'kaufen', ',', 'obwohl', 'es', 'langweilig', 'wäre']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He would buy the book although it would be boring.",
+            target: ['Obwohl', 'es', 'langweilig', 'wäre', ',', 'würde', 'er', 'das', 'Buch', 'kaufen']
           }
         ]
       },
@@ -2844,9 +3154,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "My girlfriend would be glad that I was there.",
             target: ['Meine Freundin', 'wäre', 'froh', ',', 'dass', 'ich', 'da', 'wäre']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "My girlfriend would be glad that I was there.",
+            target: ['Dass', 'ich', 'da', 'wäre', ',', 'wäre', 'meine Freundin', 'froh']
           }
         ]
       },
@@ -2864,9 +3179,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "It would be better if we had more time.",
             target: ['Es', 'wäre', 'besser', ',', 'wenn', 'wir', 'mehr Zeit', 'hätten']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "It would be better if we had more time.",
+            target: ['Wenn', 'wir', 'mehr Zeit', 'hätten', ',', 'wäre', 'es', 'besser']
           }
         ]
       },
@@ -2884,9 +3204,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I would learn because it would be important.",
             target: ['Ich', 'würde', 'lernen', ',', 'weil', 'es', 'wichtig', 'wäre']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I would learn because it would be important.",
+            target: ['Weil', 'es', 'wichtig', 'wäre', ',', 'würde', 'ich', 'lernen']
           }
         ]
       },
@@ -2904,9 +3229,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "We would hike although it would rain.",
             target: ['Wir', 'würden', 'wandern', ',', 'obwohl', 'es', 'regnen', 'würde']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "We would hike although it would rain.",
+            target: ['Obwohl', 'es', 'regnen', 'würde', ',', 'würden', 'wir', 'wandern']
           }
         ]
       },
@@ -2925,9 +3255,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "I would be happy if we were at the beach.",
             target: ['Ich', 'würde', 'mich', 'freuen', ',', 'wenn', 'wir', 'am Strand', 'wären']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "I would be happy if we were at the beach.",
+            target: ['Wenn', 'wir', 'am Strand', 'wären', ',', 'würde', 'ich', 'mich', 'freuen']
           }
         ]
       },
@@ -2946,9 +3281,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "She would eat pizza because she would have hunger.",
             target: ['Sie', 'würde', 'Pizza', 'essen', ',', 'weil', 'sie', 'Hunger', 'hätte']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "She would eat pizza because she would have hunger.",
+            target: ['Weil', 'sie', 'Hunger', 'hätte', ',', 'würde', 'sie', 'Pizza', 'essen']
           }
         ]
       },
@@ -2968,9 +3308,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "He would buy the book although it would be expensive.",
             target: ['Er', 'würde', 'das', 'Buch', 'kaufen', ',', 'obwohl', 'es', 'teuer', 'wäre']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "He would buy the book although it would be expensive.",
+            target: ['Obwohl', 'es', 'teuer', 'wäre', ',', 'würde', 'er', 'das', 'Buch', 'kaufen']
           }
         ]
       },
@@ -2988,9 +3333,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "My girlfriend would be glad that I was there.",
             target: ['Meine Freundin', 'wäre', 'froh', ',', 'dass', 'ich', 'da', 'wäre']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "My girlfriend would be glad that I was there.",
+            target: ['Dass', 'ich', 'da', 'wäre', ',', 'wäre', 'meine Freundin', 'froh']
           }
         ]
       },
@@ -3008,9 +3358,14 @@ export const CATEGORIES_DATA: Categories = {
         ],
         steps: [
           {
-            instruction: "Bilde den Satz.",
+            instruction: "Schritt 1: Bilde den Satz.",
             english: "It would be better if we had more time.",
             target: ['Es', 'wäre', 'besser', ',', 'wenn', 'wir', 'mehr Zeit', 'hätten']
+          },
+          {
+            instruction: "Schritt 2: Jetzt beginne mit dem Nebensatz!",
+            english: "It would be better if we had more time.",
+            target: ['Wenn', 'wir', 'mehr Zeit', 'hätten', ',', 'wäre', 'es', 'besser']
           }
         ]
       }
