@@ -91,7 +91,7 @@ export default function App() {
     }
 
     // Deep clone and shuffle bank cards
-    const clonedBank = ex.bank.map(c => ({ ...c, userValue: '' }));
+    const clonedBank = ex.bank.map(c => ({ ...c, userValue: '', auxChoice: '' }));
     for (let i = clonedBank.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [clonedBank[i], clonedBank[j]] = [clonedBank[j], clonedBank[i]];
