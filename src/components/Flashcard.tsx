@@ -145,19 +145,28 @@ export function Flashcard({ card, onClick, onUpdateValue, onUpdateAuxChoice }: F
           {card.cat === 'verb' && (
             <span className="text-[8px] font-bold opacity-60 mb-auto uppercase tracking-wider">haben / sein</span>
           )}
+          {card.cat === 'subjunction' && (
+            <span className="text-[8px] font-bold opacity-60 mb-auto uppercase tracking-wider">wenn / als</span>
+          )}
           <div className="flex items-center gap-1 mt-auto">
             <select
               value={card.userValue || ''}
               onChange={(e) => onUpdateValue(e.target.value)}
               onClick={(e) => e.stopPropagation()}
-              className="px-1 py-0.5 text-[10px] font-medium bg-white/80 border border-black/20 rounded focus:outline-none focus:border-orange-500 text-black appearance-none cursor-pointer"
+              className={`px-1 py-0.5 text-[10px] font-medium border rounded focus:outline-none appearance-none cursor-pointer ${
+                card.cat === 'subjunction' && card.userValue && card.userValue === card.text
+                  ? 'bg-emerald-100 border-emerald-500 text-emerald-900'
+                  : card.cat === 'subjunction' && card.userValue && card.userValue !== card.text
+                  ? 'bg-rose-100 border-rose-400 text-rose-900'
+                  : 'bg-white/80 border-black/20 text-black focus:border-orange-500'
+              }`}
             >
               <option value="" disabled>-</option>
               {card.options?.map(o => (
                 <option key={o} value={o}>{o}</option>
               ))}
             </select>
-            {card.cat !== 'verb' && (
+            {card.cat !== 'verb' && card.cat !== 'subjunction' && (
               <span className={`text-[10px] font-medium whitespace-nowrap ${
                 card.gender === 'f' ? 'text-red-800' :
                 card.gender === 'm' ? 'text-blue-800' :
@@ -167,6 +176,12 @@ export function Flashcard({ card, onClick, onUpdateValue, onUpdateAuxChoice }: F
                 {card.base}
               </span>
             )}
+            {card.cat === 'subjunction' && card.userValue && card.userValue === card.text && (
+              <span className="text-emerald-600 text-[10px] font-bold">✓</span>
+            )}
+            {card.cat === 'subjunction' && card.userValue && card.userValue !== card.text && (
+              <span className="text-rose-500 text-[10px] font-bold">✗</span>
+            )}
           </div>
         </>
       )}
@@ -175,16 +190,30 @@ export function Flashcard({ card, onClick, onUpdateValue, onUpdateAuxChoice }: F
           <div className="flex items-center gap-1 mb-auto">
             <span className="text-[8px] font-bold opacity-60 uppercase tracking-wider">[haben / sein]</span>
           </div>
-          <select
-            value={card.auxChoice || ''}
-            onChange={(e) => { onUpdateAuxChoice?.(e.target.value); }}
-            onClick={(e) => e.stopPropagation()}
-            className="mt-0.5 px-1 py-0.5 text-[10px] font-medium bg-white/80 border border-black/20 rounded focus:outline-none focus:border-green-600 text-black appearance-none cursor-pointer"
-          >
-            <option value="" disabled>wählen</option>
-            <option value="haben">haben</option>
-            <option value="sein">sein</option>
-          </select>
+          {(() => {
+            const auxCorrect = card.auxChoice && card.auxChoice === card.infinitive;
+            const auxWrong = card.auxChoice && card.auxChoice !== card.infinitive;
+            return (
+              <div className="flex items-center gap-1 mt-0.5">
+                <select
+                  value={card.auxChoice || ''}
+                  onChange={(e) => { onUpdateAuxChoice?.(e.target.value); }}
+                  onClick={(e) => e.stopPropagation()}
+                  className={`px-1 py-0.5 text-[10px] font-medium border rounded focus:outline-none appearance-none cursor-pointer ${
+                    auxCorrect ? 'bg-emerald-100 border-emerald-500 text-emerald-900' :
+                    auxWrong   ? 'bg-rose-100 border-rose-400 text-rose-900' :
+                    'bg-white/80 border-black/20 text-black focus:border-green-600'
+                  }`}
+                >
+                  <option value="" disabled>wählen</option>
+                  <option value="haben">haben</option>
+                  <option value="sein">sein</option>
+                </select>
+                {auxCorrect && <span className="text-emerald-600 text-[10px] font-bold">✓</span>}
+                {auxWrong   && <span className="text-rose-500 text-[10px] font-bold">✗</span>}
+              </div>
+            );
+          })()}
           <input
             ref={inputRef}
             type="text"
