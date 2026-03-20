@@ -6,9 +6,10 @@ interface FlashcardProps {
   card: BankCard;
   onClick: () => void;
   onUpdateValue: (val: string) => void;
+  onUpdateAuxChoice?: (val: string) => void;
 }
 
-export function Flashcard({ card, onClick, onUpdateValue }: FlashcardProps) {
+export function Flashcard({ card, onClick, onUpdateValue, onUpdateAuxChoice }: FlashcardProps) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [showHint, setShowHint] = useState(false);
 
@@ -165,6 +166,39 @@ export function Flashcard({ card, onClick, onUpdateValue }: FlashcardProps) {
               {card.base} {card.gender && <span className="opacity-60 text-[8px]">({card.gender})</span>}
             </span>
           )}
+        </>
+      )}
+      {card.type === 'auxVerb' && (
+        <>
+          <div className="flex items-center gap-1 mb-auto">
+            <span className="text-[8px] font-bold opacity-60 uppercase tracking-wider">[haben / sein]</span>
+          </div>
+          <select
+            value={card.auxChoice || ''}
+            onChange={(e) => { onUpdateAuxChoice?.(e.target.value); }}
+            onClick={(e) => e.stopPropagation()}
+            className="mt-0.5 px-1 py-0.5 text-[10px] font-medium bg-white/80 border border-black/20 rounded focus:outline-none focus:border-green-600 text-black appearance-none cursor-pointer"
+          >
+            <option value="" disabled>wählen</option>
+            <option value="haben">haben</option>
+            <option value="sein">sein</option>
+          </select>
+          <input
+            ref={inputRef}
+            type="text"
+            value={card.userValue || ''}
+            onChange={(e) => onUpdateValue(e.target.value)}
+            onKeyDown={handleKeyDown}
+            onClick={(e) => e.stopPropagation()}
+            placeholder="Form"
+            className="w-14 mt-0.5 px-1 py-0.5 text-center text-[10px] font-medium bg-white/80 border border-black/20 rounded focus:outline-none focus:border-green-600 focus:ring-1 focus:ring-green-600 text-black placeholder:text-black/40"
+          />
+          <div className="flex gap-0.5 mt-0.5">
+            <button onClick={(e) => { e.stopPropagation(); insertUmlaut('ä'); }} className="px-1 py-0 text-[8px] font-bold bg-white/80 border border-black/10 rounded hover:bg-white text-black">ä</button>
+            <button onClick={(e) => { e.stopPropagation(); insertUmlaut('ö'); }} className="px-1 py-0 text-[8px] font-bold bg-white/80 border border-black/10 rounded hover:bg-white text-black">ö</button>
+            <button onClick={(e) => { e.stopPropagation(); insertUmlaut('ü'); }} className="px-1 py-0 text-[8px] font-bold bg-white/80 border border-black/10 rounded hover:bg-white text-black">ü</button>
+            <button onClick={(e) => { e.stopPropagation(); insertUmlaut('ß'); }} className="px-1 py-0 text-[8px] font-bold bg-white/80 border border-black/10 rounded hover:bg-white text-black">ß</button>
+          </div>
         </>
       )}
     </motion.div>
