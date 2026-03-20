@@ -141,7 +141,9 @@ export function Flashcard({ card, onClick, onUpdateValue }: FlashcardProps) {
 
       {card.type === 'dropdown' && (
         <>
-          <span className="text-[8px] font-bold opacity-60 mb-auto uppercase tracking-wider">{'{choose}'}</span>
+          <span className="text-[8px] font-bold opacity-60 mb-auto uppercase tracking-wider">
+            {card.cat === 'verb' ? 'haben / sein' : '{choose}'}
+          </span>
           <select
             value={card.userValue || ''}
             onChange={(e) => onUpdateValue(e.target.value)}
@@ -153,14 +155,16 @@ export function Flashcard({ card, onClick, onUpdateValue }: FlashcardProps) {
               <option key={o} value={o}>{o}</option>
             ))}
           </select>
-          <span className={`text-[9px] mt-0.5 whitespace-nowrap font-medium ${
-            card.gender === 'f' ? 'text-red-800' :
-            card.gender === 'm' ? 'text-blue-800' :
-            card.gender === 'n' ? 'text-green-800' :
-            card.gender === 'pl' ? 'text-yellow-800' : ''
-          }`}>
-            {card.base} {card.gender && <span className="opacity-60 text-[8px]">({card.gender})</span>}
-          </span>
+          {card.cat !== 'verb' && (
+            <span className={`text-[9px] mt-0.5 whitespace-nowrap font-medium ${
+              card.gender === 'f' ? 'text-red-800' :
+              card.gender === 'm' ? 'text-blue-800' :
+              card.gender === 'n' ? 'text-green-800' :
+              card.gender === 'pl' ? 'text-yellow-800' : ''
+            }`}>
+              {card.base} {card.gender && <span className="opacity-60 text-[8px]">({card.gender})</span>}
+            </span>
+          )}
         </>
       )}
     </motion.div>
